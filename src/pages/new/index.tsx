@@ -1,8 +1,8 @@
 import type { NextPage } from 'next';
 import Image from 'next/image';
 import { Box, Container, Heading } from 'theme-ui';
-import HeroImage from '../assets/robert-andre-cathrine-members-lounge.jpeg';
-import { Layout } from '../components/layout';
+import HeroImage from '../../assets/robert-andre-cathrine-members-lounge.jpeg';
+import { Layout } from '../../components/layout';
 
 const Home: NextPage = () => {
   return (
