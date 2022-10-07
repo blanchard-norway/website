@@ -1,14 +1,18 @@
 import Image from 'next/image';
-import React, { useEffect } from 'react';
+import React, {createRef, useEffect} from 'react';
 
 export const Navbar: React.FC = () => {
+  const dropdownMenu = createRef<HTMLDivElement>();
+  const caret = createRef<HTMLDivElement>();
+
   useEffect(() => {
     ($('.dropdown-toggle') as any).dropdownHover();
   }, []);
 
   const onDropdownClick = () => {
-    $('.dropdown-menu').toggleClass('open');
-    $('b', this).toggleClass('caret caret-up');
+    dropdownMenu.current?.classList.toggle('open');
+    caret.current?.classList.toggle('caret');
+    caret.current?.classList.toggle('caret-up');
   };
 
   return (
@@ -87,7 +91,7 @@ export const Navbar: React.FC = () => {
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  Kurs og tjenester <b className="caret"></b>
+                  Kurs og tjenester <b className="caret" ref={caret}></b>
                 </a>
                 <ul className="dropdown-menu">
                   <li className="hidden-lg">
