@@ -1,32 +1,28 @@
 import type { NextPage } from 'next';
 import Image from 'next/image';
-import { useEffect } from 'react';
+import { createRef, useEffect } from 'react';
 import Slider from 'react-slick';
 import { Layout } from '../../components/layout';
 
 const Home: NextPage = () => {
-  useEffect(() => {
-    $('#great').one(
-      'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
-      () => {
-        $('#trained').show().addClass('animated slideInLeft');
-      },
-    );
+  const trained = createRef<HTMLDivElement>();
+  const chart = createRef<HTMLDivElement>();
+  const medal = createRef<HTMLDivElement>();
 
-    $('#animateIcons #men').addClass('animated slideInRight');
-    $('#men').one(
-      'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
-      () => {
-        $('#chart').show().addClass('animated slideInRight');
-      },
-    );
-    $('#chart').one(
-      'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
-      () => {
-        $('#medal').show().addClass('animated slideInRight');
-      },
-    );
-  });
+  const greatEnd = () => {
+    trained.current?.classList.toggle('animated');
+    trained.current?.classList.toggle('slideInLeft');
+  };
+
+  const menEnd = () => {
+    chart.current?.classList.toggle('animated');
+    chart.current?.classList.toggle('slideInRight');
+  };
+
+  const chartEnd = () => {
+    medal.current?.classList.toggle('animated');
+    medal.current?.classList.toggle('slideInRight');
+  };
 
   const settings = {
     dots: true,
@@ -39,7 +35,11 @@ const Home: NextPage = () => {
     <Layout>
       <div className="container-fluid header" id="global-mini-home">
         <div className="container">
-          <h1 className="green animated slideInRight" id="great">
+          <h1
+            className="green animated slideInRight"
+            id="great"
+            onAnimationEnd={greatEnd}
+          >
             GODE
             <br />
             LEDERE
@@ -48,7 +48,7 @@ const Home: NextPage = () => {
             <br />
             FØDT GODE,
           </h1>
-          <h1 className="white" id="trained">
+          <h1 className="white" id="trained" ref={trained}>
             <span className="green-bg">DE BLIR</span>
             <br />
             <span className="green-bg"> TRENT OPP</span>
@@ -211,7 +211,11 @@ const Home: NextPage = () => {
               </h1>
             </div>
             <div className="col-lg-6 right" id="animateIcons">
-              <div className="row icon" id="men">
+              <div
+                className="row icon animated slideInRight"
+                id="men"
+                onAnimationEnd={menEnd}
+              >
                 <div className="col-xs-3 col-sm-2 center-block">
                   <Image
                     src="/images/icon-men.png"
@@ -229,7 +233,12 @@ const Home: NextPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="row icon" id="chart">
+              <div
+                className="row icon"
+                id="chart"
+                ref={chart}
+                onAnimationEnd={chartEnd}
+              >
                 <div className="col-xs-3 col-sm-2 center-block">
                   <Image
                     src="/images/icon-chart.png"
@@ -247,7 +256,7 @@ const Home: NextPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="row icon" id="medal">
+              <div className="row icon" id="medal" ref={medal}>
                 <div className="col-xs-3 col-sm-2 center-block">
                   <Image
                     src="/images/icon-medal.png"
