@@ -40,19 +40,20 @@ export const Navbar: React.FC = () => {
             <ul className="nav navbar-nav">
               <li className="hidden-lg"><a href="index.html">Hjem</a></li>
               <li className="dropdown"><a href="products.html" className="dropdown-toggle" onClick={onDropdownClick} data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Kurs og tjenester <b className="caret"></b></a>
-              <ul className="dropdown-menu">
+                <ul className="dropdown-menu">
                   <li className="hidden-lg"><a href="products.html">Oversikt</a></li>
                   <li><a href="product-sl.html">SLII<sup>&reg; </sup>. POWERING INSPIRED LEADERS<sup>&trade; </sup></a></li>
                   <li><a href="product-change.html">Endringsledelse</a></li>
-          <li><a href="product-coaching.html">Grunnleggende coaching</a></li>
+                  <li><a href="product-coaching.html">Grunnleggende coaching</a></li>
                   <li><a href="product-managers.html">Kommunikasjon i ledelse</a></li>
-          <li><a href="product-leading-virtualy.html">Lede virtuelt</a></li>
-          <li><a href="product-service.html">Legendarisk kundeservice</a></li>
-          <li><a href="product-optimal-motivation.html">Optimal motivasjon</a></li>
+                  <li><a href="product-leading-virtualy.html">Lede virtuelt</a></li>
+                  <li><a href="product-service.html">Legendarisk kundeservice</a></li>
+                  <li><a href="product-optimal-motivation.html">Optimal motivasjon</a></li>
                   <li><a href="product-self-leadership.html">Selvledelse</a></li>
                   <li><a href="product-teamleadership.html">Teamledelse</a></li>
-          <li><a href="product-trust.html">Tillitsledelse</a></li>
-              </ul></li>
+                  <li><a href="product-trust.html">Tillitsledelse</a></li>
+                </ul>
+              </li>
               <li><a href="how.html">Hvordan vi arbeider med deg</a></li>
               <li><a href="events-workshops.html">Kurskalender</a></li>
               <li><a href="resources.html">Ressurser</a></li>
