@@ -17,8 +17,13 @@ export const Navbar: React.FC = () => {
         <div className="container">
           <ul id="tool-bar">
             <li><a href="">Kontakt oss:</a></li>
-            <li className="social email"><a href="mailto:info@blanchard.no"></a><Image src="/images/top-nav-icon-email.png" alt="mail icon" width="16" height="12" /><a href="mailto:info@blanchard.no">info@blanchard.no</a></li>
-            <li className="social"><a><Image src="/images/top-nav-icon-phone.png" alt="phone icon" width="12" height="12" /> 23 65 39 39</a></li>
+            <li className="social email">
+              <a href="mailto:info@blanchard.no"><img src="/images/top-nav-icon-email.png" alt="mail icon" width="16" height="12" /></a>
+              <a href="mailto:info@blanchard.no">info@blanchard.no</a>
+            </li>
+            <li className="social">
+              <a><img src="/images/top-nav-icon-phone.png" alt="phone icon" width="12" height="12" /> 23 65 39 39</a>
+            </li>
           </ul>
         </div>
       </div>
