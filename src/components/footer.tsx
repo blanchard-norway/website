@@ -7,15 +7,15 @@ export const Footer: React.FC = () => {
       <div className="sub-footer">
         <div className="container">
           <div className="row">
-            <div className="col-sm-6 footer-logo"><Image src="/images/global-mini/global-mini-logo-white.png" alt='Logo White' width={330} height={72} />
-              <Image src="/images/Blanchard-Norway-Logo-White.png" alt='Logo' width={300} height={167} className="visible-xs center-block" />
+            <div className="col-sm-6 footer-logo">
+              <div className="hidden-xs"><Image src="/images/global-mini/global-mini-logo-white.png" alt='Logo White' width={330} height={72} /></div>
+              <div className="visible-xs center-block"><Image src="/images/Blanchard-Norway-Logo-White.png" alt='Logo' width={300} height={167} /></div>
               <div className="copyright copy">A global licensee of The Ken Blanchard Companies&reg;</div>
             </div>
             <div className="col-sm-3 address">
               <div className="footer-title">BLANCHARD NORWAY</div>
               Laberget 44<br />
               N-4020 Stavanger<br />
-
               <p><Image src="/images/top-nav-icon-phone.png" alt='Phone' width={12} height={12} /> 23 65 39 39</p>
               <p className="visible-xs"><Image src="/images/top-nav-icon-email.png" width={16} height={12} alt='Email' /> <a href="mailto:info@blanchard.no">info@blanchard.no</a></p>
             </div>
