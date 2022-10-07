@@ -361,6 +361,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime-corejs2@npm:^7.0.0":
+  version: 7.19.2
+  resolution: "@babel/runtime-corejs2@npm:7.19.2"
+  dependencies:
+    core-js: ^2.6.12
+    regenerator-runtime: ^0.13.4
+  checksum: 0d8762f678cb1cbddf9d138ce89e3810d4f3f7efb7ea961b52ee571c77648054cc52eae3dc259891151951f7fbc02761c4969ab769ab6aacc0d78bb3f0a85b99
+  languageName: node
+  linkType: hard
+
 "@babel/runtime-corejs3@npm:^7.10.2":
   version: 7.19.1
   resolution: "@babel/runtime-corejs3@npm:7.19.1"
@@ -371,7 +381,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.18.9":
+"@babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.18.9, @babel/runtime@npm:^7.6.3":
   version: 7.19.0
   resolution: "@babel/runtime@npm:7.19.0"
   dependencies:
@@ -1117,6 +1127,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@popperjs/core@npm:^2.9.2":
+  version: 2.11.6
+  resolution: "@popperjs/core@npm:2.11.6"
+  checksum: 47fb328cec1924559d759b48235c78574f2d71a8a6c4c03edb6de5d7074078371633b91e39bbf3f901b32aa8af9b9d8f82834856d2f5737a23475036b16817f0
+  languageName: node
+  linkType: hard
+
 "@rushstack/eslint-patch@npm:^1.1.3":
   version: 1.2.0
   resolution: "@rushstack/eslint-patch@npm:1.2.0"
@@ -1559,6 +1576,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/bootstrap@npm:^5":
+  version: 5.2.5
+  resolution: "@types/bootstrap@npm:5.2.5"
+  dependencies:
+    "@popperjs/core": ^2.9.2
+  checksum: f60c97f0b8c2a445901b23f18e584bc795572bbba174c7f1482adc7ad66e4a33bebd9587997cf8fa44c7bed880f95cbaa3ab3168c054d5a77475a06eea9318a5
+  languageName: node
+  linkType: hard
+
 "@types/graceful-fs@npm:^4.1.3":
   version: 4.1.5
   resolution: "@types/graceful-fs@npm:4.1.5"
@@ -1603,6 +1629,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/jquery@npm:*, @types/jquery@npm:^3":
+  version: 3.5.14
+  resolution: "@types/jquery@npm:3.5.14"
+  dependencies:
+    "@types/sizzle": "*"
+  checksum: 159d6f804ed1a204b3f79f2d591a271d82e866bd45bd49fb6ef40561a25dbe0f47ec7815681b44cc2db5598425f72811e7e80ab0e983d980470998ac56feb375
+  languageName: node
+  linkType: hard
+
 "@types/json-schema@npm:^7.0.9":
   version: 7.0.11
   resolution: "@types/json-schema@npm:7.0.11"
@@ -1614,6 +1649,15 @@ __metadata:
   version: 0.0.29
   resolution: "@types/json5@npm:0.0.29"
   checksum: e60b153664572116dfea673c5bda7778dbff150498f44f998e34b5886d8afc47f16799280e4b6e241c0472aef1bc36add771c569c68fc5125fc2ae519a3eb9ac
+  languageName: node
+  linkType: hard
+
+"@types/next@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "@types/next@npm:9.0.0"
+  dependencies:
+    next: "*"
+  checksum: 3115931293e1928df5ecd9d0cbf8b9edc9e2d7f67467db468f3d92dac7b44199706dbd4226c33193a7fcd3fe230a1ec2c796a1a585911d40be9fdaf47e8cb16e
   languageName: node
   linkType: hard
 
@@ -1661,7 +1705,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.0.21":
+"@types/react-slick@npm:^0":
+  version: 0.23.10
+  resolution: "@types/react-slick@npm:0.23.10"
+  dependencies:
+    "@types/react": "*"
+  checksum: 1e53fe8385e853881741a450d15c52d6433334b671fee4044939037f8e5b83968cb91fd9dbe7e6686e906882ebcf370b81bd55b6688f8e810020e23a968c0385
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:*, @types/react@npm:18.0.21, @types/react@npm:>=16.9.11":
   version: 18.0.21
   resolution: "@types/react@npm:18.0.21"
   dependencies:
@@ -1676,6 +1729,22 @@ __metadata:
   version: 0.16.2
   resolution: "@types/scheduler@npm:0.16.2"
   checksum: b6b4dcfeae6deba2e06a70941860fb1435730576d3689225a421280b7742318d1548b3d22c1f66ab68e414f346a9542f29240bc955b6332c5b11e561077583bc
+  languageName: node
+  linkType: hard
+
+"@types/sizzle@npm:*":
+  version: 2.3.3
+  resolution: "@types/sizzle@npm:2.3.3"
+  checksum: 586a9fb1f6ff3e325e0f2cc1596a460615f0bc8a28f6e276ac9b509401039dd242fa8b34496d3a30c52f5b495873922d09a9e76c50c2ab2bcc70ba3fb9c4e160
+  languageName: node
+  linkType: hard
+
+"@types/slick-carousel@npm:^1":
+  version: 1.6.37
+  resolution: "@types/slick-carousel@npm:1.6.37"
+  dependencies:
+    "@types/jquery": "*"
+  checksum: 0d2de86519d02505067afc986a89df825ba410696d1434fd2377d31c962b6c732d024ae99a15e753e5c20357bc83f65a4d835025fb86fe4b5854db124318c084
   languageName: node
   linkType: hard
 
@@ -2217,12 +2286,18 @@ __metadata:
     "@cobraz/prettier": ^2.0.0
     "@emotion/react": 11.10.4
     "@theme-ui/presets": ^0.15.1
+    "@types/bootstrap": ^5
     "@types/jest": ^29.1.1
+    "@types/jquery": ^3
+    "@types/next": ^9.0.0
     "@types/node": 18.7.23
     "@types/prettier": ^2
     "@types/react": 18.0.21
     "@types/react-dom": 18.0.6
+    "@types/react-slick": ^0
+    "@types/slick-carousel": ^1
     "@typescript-eslint/eslint-plugin": 5.38.2-alpha.1
+    bootstrap: ^5.2.2
     eslint: 8.24.0
     eslint-config-next: 12.3.1
     eslint-config-prettier: 8.5.0
@@ -2232,16 +2307,29 @@ __metadata:
     eslint-plugin-promise: 6.0.1
     eslint-plugin-unicorn: 43.0.2
     jest: ^29.1.2
+    jquery: ^3.6.1
     next: 12.3.1
     next-theme-ui: ^1.3.0
     prettier: 2.7.1
     react: 18.2.0
+    react-bootstrap: ^0.33.1
     react-dom: 18.2.0
+    react-slick: ^0.29.0
+    slick-carousel: ^1.8.1
     theme-ui: ^0.15.1
     ts-jest: ^29.0.3
     typescript: 4.8.4
   languageName: unknown
   linkType: soft
+
+"bootstrap@npm:^5.2.2":
+  version: 5.2.2
+  resolution: "bootstrap@npm:5.2.2"
+  peerDependencies:
+    "@popperjs/core": ^2.11.6
+  checksum: 14e6df28feb975dc10702cac0a6c2a21132a6e4e5562e31cdae1db3970e287ed29001020066b61d96b2cea2a45ecf44c08c8c26bc84a31cdeabec0a9be6b9389
+  languageName: node
+  linkType: hard
 
 "brace-expansion@npm:^1.1.7":
   version: 1.1.11
@@ -2430,6 +2518,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"classnames@npm:^2.2.5":
+  version: 2.3.2
+  resolution: "classnames@npm:2.3.2"
+  checksum: 2c62199789618d95545c872787137262e741f9db13328e216b093eea91c85ef2bfb152c1f9e63027204e2559a006a92eb74147d46c800a9f96297ae1d9f96f4e
+  languageName: node
+  linkType: hard
+
 "clean-regexp@npm:^1.0.0":
   version: 1.0.0
   resolution: "clean-regexp@npm:1.0.0"
@@ -2539,6 +2634,13 @@ __metadata:
   version: 3.25.3
   resolution: "core-js-pure@npm:3.25.3"
   checksum: be3097b8e2b541977a08004e433b68adb4951cc7694229e695ae407f296d370c1f360e5fd70fc6910c4427e46e48e087ac455d68cebdf4314370907d2e03eef1
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^2.6.12":
+  version: 2.6.12
+  resolution: "core-js@npm:2.6.12"
+  checksum: 44fa9934a85f8c78d61e0c8b7b22436330471ffe59ec5076fe7f324d6e8cf7f824b14b1c81ca73608b13bdb0fef035bd820989bf059767ad6fa13123bb8bd016
   languageName: node
   linkType: hard
 
@@ -2696,6 +2798,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dom-helpers@npm:^3.2.0, dom-helpers@npm:^3.2.1, dom-helpers@npm:^3.4.0":
+  version: 3.4.0
+  resolution: "dom-helpers@npm:3.4.0"
+  dependencies:
+    "@babel/runtime": ^7.1.2
+  checksum: 58d9f1c4a96daf77eddc63ae1236b826e1cddd6db66bbf39b18d7e21896d99365b376593352d52a60969d67fa4a8dbef26adc1439fa2c1b355efa37cacbaf637
+  languageName: node
+  linkType: hard
+
 "electron-to-chromium@npm:^1.4.251":
   version: 1.4.270
   resolution: "electron-to-chromium@npm:1.4.270"
@@ -2730,6 +2841,13 @@ __metadata:
   dependencies:
     iconv-lite: ^0.6.2
   checksum: bb98632f8ffa823996e508ce6a58ffcf5856330fde839ae42c9e1f436cc3b5cc651d4aeae72222916545428e54fd0f6aa8862fd8d25bdbcc4589f1e3f3715e7f
+  languageName: node
+  linkType: hard
+
+"enquire.js@npm:^2.1.6":
+  version: 2.1.6
+  resolution: "enquire.js@npm:2.1.6"
+  checksum: bb094054ee2768edafc3b80fb2b65b79d63160d625085162e9c9016843b6eaa13d7430201bf593c2e31e1725b3208f47f57aa27e03b19729e7590d1ca2241451
   languageName: node
   linkType: hard
 
@@ -3821,6 +3939,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"invariant@npm:^2.2.4":
+  version: 2.2.4
+  resolution: "invariant@npm:2.2.4"
+  dependencies:
+    loose-envify: ^1.0.0
+  checksum: cc3182d793aad82a8d1f0af697b462939cb46066ec48bbf1707c150ad5fad6406137e91a262022c269702e01621f35ef60269f6c0d7fd178487959809acdfb14
+  languageName: node
+  linkType: hard
+
 "ip@npm:^2.0.0":
   version: 2.0.0
   resolution: "ip@npm:2.0.0"
@@ -4502,6 +4629,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jquery@npm:^3.6.1":
+  version: 3.6.1
+  resolution: "jquery@npm:3.6.1"
+  checksum: 6177d866a74f1137cad800f142c7cdbd5ab19cd4282546f8bdb4890c9f933b1d542ab96f2aa15d007e43c98de7315b0513e849ec5359d3ac5640f720892fe547
+  languageName: node
+  linkType: hard
+
 "js-sdsl@npm:^4.1.4":
   version: 4.1.5
   resolution: "js-sdsl@npm:4.1.5"
@@ -4569,6 +4703,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"json2mq@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "json2mq@npm:0.2.0"
+  dependencies:
+    string-convert: ^0.2.0
+  checksum: 5672c3abdd31e21a0e2f0c2688b4948103687dab949a1c5a1cba98667e899a96c2c7e3d71763c4f5e7cd7d7c379ea5dd5e1a9b2a2107dd1dfa740719a11aa272
+  languageName: node
+  linkType: hard
+
 "json5@npm:^1.0.1":
   version: 1.0.1
   resolution: "json5@npm:1.0.1"
@@ -4596,6 +4739,13 @@ __metadata:
     array-includes: ^3.1.5
     object.assign: ^4.1.3
   checksum: a2ed78cac49a0f0c4be8b1eafe3c5257a1411341d8e7f1ac740debae003de04e5f6372bfcfbd9d082e954ffd99aac85bcda85b7c6bc11609992483f4cdc0f745
+  languageName: node
+  linkType: hard
+
+"keycode@npm:^2.2.0":
+  version: 2.2.1
+  resolution: "keycode@npm:2.2.1"
+  checksum: 7a5c775b2410a3b6d9c07a415ecb70639187a965be239d2c11c71079cb1ca2f9dede94b86426f3ece475dc8ae3debf2367531bbcafc0af8c82f157d9a4f7e6cb
   languageName: node
   linkType: hard
 
@@ -4664,6 +4814,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.debounce@npm:^4.0.8":
+  version: 4.0.8
+  resolution: "lodash.debounce@npm:4.0.8"
+  checksum: a3f527d22c548f43ae31c861ada88b2637eb48ac6aa3eb56e82d44917971b8aa96fbb37aa60efea674dc4ee8c42074f90f7b1f772e9db375435f6c83a19b3bc6
+  languageName: node
+  linkType: hard
+
 "lodash.memoize@npm:4.x":
   version: 4.1.2
   resolution: "lodash.memoize@npm:4.1.2"
@@ -4685,7 +4842,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
+"loose-envify@npm:^1.0.0, loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0"
   dependencies:
@@ -4958,7 +5115,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:12.3.1":
+"next@npm:*, next@npm:12.3.1":
   version: 12.3.1
   resolution: "next@npm:12.3.1"
   dependencies:
@@ -5439,7 +5596,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.8.1":
+"prop-types-extra@npm:^1.0.1":
+  version: 1.1.1
+  resolution: "prop-types-extra@npm:1.1.1"
+  dependencies:
+    react-is: ^16.3.2
+    warning: ^4.0.0
+  peerDependencies:
+    react: ">=0.14.0"
+  checksum: ebf1c048687bb538457f91a3610abb36ca0f50587a6afae80443a9e65b9db96882d18c3511175a8967fad4ca5dcd804913bbc241d7b5160c74cf69aacdd054f0
+  languageName: node
+  linkType: hard
+
+"prop-types@npm:^15.5.10, prop-types@npm:^15.6.1, prop-types@npm:^15.6.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -5464,6 +5633,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-bootstrap@npm:^0.33.1":
+  version: 0.33.1
+  resolution: "react-bootstrap@npm:0.33.1"
+  dependencies:
+    "@babel/runtime-corejs2": ^7.0.0
+    classnames: ^2.2.5
+    dom-helpers: ^3.2.0
+    invariant: ^2.2.4
+    keycode: ^2.2.0
+    prop-types: ^15.6.1
+    prop-types-extra: ^1.0.1
+    react-overlays: ^0.9.0
+    react-prop-types: ^0.4.0
+    react-transition-group: ^2.0.0
+    uncontrollable: ^7.0.2
+    warning: ^3.0.0
+  peerDependencies:
+    react: ">=16.3.0"
+    react-dom: ">=16.3.0"
+  checksum: 2f3a3ae595f6fc36df232fa8289633d456fd683725e2d766601249efabe7d89de269eb8c7a1f557daf6f87a2ec17fb9d0a18855227710756f6fa047fcfa28b66
+  languageName: node
+  linkType: hard
+
 "react-dom@npm:18.2.0":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
@@ -5476,7 +5668,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.13.1, react-is@npm:^16.7.0":
+"react-is@npm:^16.13.1, react-is@npm:^16.3.2, react-is@npm:^16.7.0":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
@@ -5487,6 +5679,72 @@ __metadata:
   version: 18.2.0
   resolution: "react-is@npm:18.2.0"
   checksum: e72d0ba81b5922759e4aff17e0252bd29988f9642ed817f56b25a3e217e13eea8a7f2322af99a06edb779da12d5d636e9fda473d620df9a3da0df2a74141d53e
+  languageName: node
+  linkType: hard
+
+"react-lifecycles-compat@npm:^3.0.4":
+  version: 3.0.4
+  resolution: "react-lifecycles-compat@npm:3.0.4"
+  checksum: a904b0fc0a8eeb15a148c9feb7bc17cec7ef96e71188280061fc340043fd6d8ee3ff233381f0e8f95c1cf926210b2c4a31f38182c8f35ac55057e453d6df204f
+  languageName: node
+  linkType: hard
+
+"react-overlays@npm:^0.9.0":
+  version: 0.9.3
+  resolution: "react-overlays@npm:0.9.3"
+  dependencies:
+    classnames: ^2.2.5
+    dom-helpers: ^3.2.1
+    prop-types: ^15.5.10
+    prop-types-extra: ^1.0.1
+    react-transition-group: ^2.2.1
+    warning: ^3.0.0
+  peerDependencies:
+    react: ">=16.3.0"
+    react-dom: ">=16.3.0"
+  checksum: 7e5105fd6029fda50dc50f776bbb4650b94b014d8c0bb4ca1cd214cfa354394f7d29cb476ad5db00630b271e61277a14266c218c19e15027d0a029de55730e45
+  languageName: node
+  linkType: hard
+
+"react-prop-types@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "react-prop-types@npm:0.4.0"
+  dependencies:
+    warning: ^3.0.0
+  peerDependencies:
+    react: ">=0.14.0"
+  checksum: 9133b8d2b5a4e1845a04ee7a4e072127cef2e2f500003a133bd5cb28c1a2de374f0a65836ab242ebf61edde42067b948b5d1274123d3f65b491a9da50c5dbd04
+  languageName: node
+  linkType: hard
+
+"react-slick@npm:^0.29.0":
+  version: 0.29.0
+  resolution: "react-slick@npm:0.29.0"
+  dependencies:
+    classnames: ^2.2.5
+    enquire.js: ^2.1.6
+    json2mq: ^0.2.0
+    lodash.debounce: ^4.0.8
+    resize-observer-polyfill: ^1.5.0
+  peerDependencies:
+    react: ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0
+  checksum: 67ce4981914da8a76c6efb4bc8ee7ab69e04c33bd4b3517419ab2165679a3c701dae781556149713fe2c542f84188b7ca101ea58883537be5c05756408f48c8b
+  languageName: node
+  linkType: hard
+
+"react-transition-group@npm:^2.0.0, react-transition-group@npm:^2.2.1":
+  version: 2.9.0
+  resolution: "react-transition-group@npm:2.9.0"
+  dependencies:
+    dom-helpers: ^3.4.0
+    loose-envify: ^1.4.0
+    prop-types: ^15.6.2
+    react-lifecycles-compat: ^3.0.4
+  peerDependencies:
+    react: ">=15.0.0"
+    react-dom: ">=15.0.0"
+  checksum: d8c9e50aabdc2cfc324e5cdb0ad1c6eecb02e1c0cd007b26d5b30ccf49015e900683dd489348c71fba4055858308d9ba7019e0d37d0e8d37bd46ed098788f670
   languageName: node
   linkType: hard
 
@@ -5571,6 +5829,13 @@ __metadata:
   version: 2.1.1
   resolution: "require-directory@npm:2.1.1"
   checksum: fb47e70bf0001fdeabdc0429d431863e9475e7e43ea5f94ad86503d918423c1543361cc5166d713eaa7029dd7a3d34775af04764bebff99ef413111a5af18c80
+  languageName: node
+  linkType: hard
+
+"resize-observer-polyfill@npm:^1.5.0":
+  version: 1.5.1
+  resolution: "resize-observer-polyfill@npm:1.5.1"
+  checksum: 57e7f79489867b00ba43c9c051524a5c8f162a61d5547e99333549afc23e15c44fd43f2f318ea0261ea98c0eb3158cca261e6f48d66e1ed1cd1f340a43977094
   languageName: node
   linkType: hard
 
@@ -5824,6 +6089,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"slick-carousel@npm:^1.8.1":
+  version: 1.8.1
+  resolution: "slick-carousel@npm:1.8.1"
+  peerDependencies:
+    jquery: ">=1.8.0"
+  checksum: acaad391e4d8bc1c7fdb8d361faa1f1d60829b31d618b54bc38c0550a59b26de36537e0ab4bc0364176ec11d1a61d0cf11e99d8d5b1285d656673c9a1a719257
+  languageName: node
+  linkType: hard
+
 "smart-buffer@npm:^4.2.0":
   version: 4.2.0
   resolution: "smart-buffer@npm:4.2.0"
@@ -5939,6 +6213,13 @@ __metadata:
   dependencies:
     escape-string-regexp: ^2.0.0
   checksum: 76b69da0f5b48a34a0f93c98ee2a96544d2c4ca2557f7eef5ddb961d3bdc33870b46f498a84a7c4f4ffb781df639840e7ebf6639164ed4da5e1aeb659615b9c7
+  languageName: node
+  linkType: hard
+
+"string-convert@npm:^0.2.0":
+  version: 0.2.1
+  resolution: "string-convert@npm:0.2.1"
+  checksum: 1098b1d8e3712c72d0a0b0b7f5c36c98af93e7660b5f0f14019e41bcefe55bfa79214d5e03e74d98a7334a0b9bf2b7f4c6889c8c24801aa2ae2f9ebe1d8a1ef9
   languageName: node
   linkType: hard
 
@@ -6368,6 +6649,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"uncontrollable@npm:^7.0.2":
+  version: 7.2.1
+  resolution: "uncontrollable@npm:7.2.1"
+  dependencies:
+    "@babel/runtime": ^7.6.3
+    "@types/react": ">=16.9.11"
+    invariant: ^2.2.4
+    react-lifecycles-compat: ^3.0.4
+  peerDependencies:
+    react: ">=15.0.0"
+  checksum: 3345c0c1916193ddb9cc6f2b78711dc9f22b919d780485e15b95690722e9d1797fc702c4ebb30c0acaae6a772b865d0a9ddc83fa1da44958f089aee78f2f5eab
+  languageName: node
+  linkType: hard
+
 "unique-filename@npm:^2.0.0":
   version: 2.0.1
   resolution: "unique-filename@npm:2.0.1"
@@ -6452,6 +6747,24 @@ __metadata:
   dependencies:
     makeerror: 1.0.12
   checksum: ad7a257ea1e662e57ef2e018f97b3c02a7240ad5093c392186ce0bcf1f1a60bbadd520d073b9beb921ed99f64f065efb63dfc8eec689a80e569f93c1c5d5e16c
+  languageName: node
+  linkType: hard
+
+"warning@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "warning@npm:3.0.0"
+  dependencies:
+    loose-envify: ^1.0.0
+  checksum: c9f99a12803aab81b29858e7dc3415bf98b41baee3a4c3acdeb680d98c47b6e17490f1087dccc54432deed5711a5ce0ebcda2b27e9b5eb054c32ae50acb4419c
+  languageName: node
+  linkType: hard
+
+"warning@npm:^4.0.0":
+  version: 4.0.3
+  resolution: "warning@npm:4.0.3"
+  dependencies:
+    loose-envify: ^1.0.0
+  checksum: 4f2cb6a9575e4faf71ddad9ad1ae7a00d0a75d24521c193fa464f30e6b04027bd97aa5d9546b0e13d3a150ab402eda216d59c1d0f2d6ca60124d96cd40dfa35c
   languageName: node
   linkType: hard
 

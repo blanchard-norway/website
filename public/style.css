@@ -407,7 +407,7 @@ font-family: "Open Sans";
 }
 .nav>li>a:hover {
     color: #71B0D6 !important;
-  
+
 }
 .navbar-nav>li:last-child>a {
 		padding-left: 15px;
@@ -3175,7 +3175,7 @@ height: 200px;
 .nav>li>a {
     position: relative;
     display: inline;
-    
+
 }
 
 .navbar-nav>li:last-child>a {
@@ -4037,7 +4037,7 @@ font-size: 16px;
 
 	.experts br, .leaders br{
 	display: none;
-}	
+}
 
 	.pull-right {
 		float: none !important;
@@ -4462,13 +4462,13 @@ section.events-dates-locations .reduced-padding-right {
 }
 /*section.bluebg.nopadding .right {
 	padding-left: 0;
-	
+
 }*/
 }
 @media (min-width: 670px) { /*tic 5/16*/
 section.bluebg.nopadding .right {
 	padding-left: 20px;
-	
+
 }
 
 }
@@ -4508,4 +4508,3 @@ and (-webkit-min-device-pixel-ratio: 1)  { /* STYLES GO HERE */
                 border-radius: 0 !important;
                 padding: 0px 12px 0px 12px;
 }
- 
