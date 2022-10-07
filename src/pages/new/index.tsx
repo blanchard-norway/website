@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Image from 'next/image';
-import { createRef, useEffect } from 'react';
+import { createRef } from 'react';
 import Slider from 'react-slick';
 import { Layout } from '../../components/layout';
 
