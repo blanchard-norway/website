@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import React, { createRef, useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 export const Navbar: React.FC = () => {
   useEffect(() => {
