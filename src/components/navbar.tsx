@@ -68,14 +68,16 @@ export const Navbar: React.FC = () => {
               <span className="icon-bar middle-bar"></span>
               <span className="icon-bar bottom-bar"></span>
             </button>
-            <a className="navbar-brand"><Link href={basePath}>
-              <Image
-                src="/images/global-mini/global-mini-logo.png"
-                width="330"
-                height="72"
-                alt="Mini Logo"
-              />
-            </Link></a>
+            <a className="navbar-brand">
+              <Link href={basePath}>
+                <Image
+                  src="/images/global-mini/global-mini-logo.png"
+                  width="330"
+                  height="72"
+                  alt="Mini Logo"
+                />
+              </Link>
+            </a>
           </div>
         </div>
         <div className="container">
