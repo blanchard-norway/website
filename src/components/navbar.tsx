@@ -1,9 +1,12 @@
 import Image from 'next/image';
-import React, {createRef, useEffect} from 'react';
+import Link from 'next/link';
+import React, { createRef, useEffect } from 'react';
 
 export const Navbar: React.FC = () => {
   const dropdownMenu = createRef<HTMLDivElement>();
   const caret = createRef<HTMLDivElement>();
+
+  const basePath = '/new';
 
   useEffect(() => {
     ($('.dropdown-toggle') as any).dropdownHover();
@@ -65,13 +68,15 @@ export const Navbar: React.FC = () => {
               <span className="icon-bar middle-bar"></span>
               <span className="icon-bar bottom-bar"></span>
             </button>
-            <a className="navbar-brand" href="/">
-              <Image
-                src="/images/global-mini/global-mini-logo.png"
-                width="330"
-                height="72"
-                alt="Mini Logo"
-              />
+            <a className="navbar-brand">
+              <Link href={basePath}>
+                <Image
+                  src="/images/global-mini/global-mini-logo.png"
+                  width="330"
+                  height="72"
+                  alt="Mini Logo"
+                />
+              </Link>
             </a>
           </div>
         </div>
@@ -138,7 +143,7 @@ export const Navbar: React.FC = () => {
                 <a href="how.html">Hvordan vi arbeider med deg</a>
               </li>
               <li>
-                <a href="events-workshops.html">Kurskalender</a>
+                <Link href={`${basePath}/events-workshops`}>Kurskalender</Link>
               </li>
               <li>
                 <a href="resources.html">Ressurser</a>
