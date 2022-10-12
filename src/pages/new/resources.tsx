@@ -1,6 +1,6 @@
 import { NextPage } from 'next';
-import { createRef } from 'react';
 import Image from 'next/image';
+import { createRef } from 'react';
 import { Layout } from '../../components/layout';
 
 const Resources: NextPage = () => {
