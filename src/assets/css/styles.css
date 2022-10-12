@@ -4429,3 +4429,129 @@ input.mobile-search-field-shown[type='text'] {
   border-radius: 0 !important;
   padding: 0px 12px 0px 12px;
 }
+
+#australia-v2 {
+  min-height: 390px;
+  background: url(/images/global-partners-norway-v2/norway-header.jpg) no-repeat
+    center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 140px 0 0 0;
+  margin: 0 auto;
+}
+
+.australia-box .text {
+  font-size: 18px;
+}
+
+.centered {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 300px;
+}
+
+.eight-twenty-two {
+  max-width: 822px;
+}
+
+.results-clients-australia {
+  background: url('/images/global-partners-norway-v2/results-bg.jpg') no-repeat
+    center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  padding: 73px 40px 50px 30px;
+  text-align: center;
+}
+
+.australia-box .container .row [class*='col-'] {
+  margin-bottom: 15px;
+}
+
+section.australia-video-blue {
+  padding: 50px 0 75px;
+  background-color: #e5eff6;
+}
+
+/*#team-leaders rollover boxes#*/
+
+section#aus-team-leaders .aus-photo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section#aus-team-leaders .aus-photo {
+  max-width: 332px;
+  min-height: 465px;
+}
+
+section#aus-team-leaders .aus-photo:hover {
+  padding: 75px 20px 0;
+  max-width: 332px;
+  background-color: #333f48;
+  text-align: center;
+}
+
+section#aus-team-leaders .aus-photo .content-show {
+  height: 100%;
+  background-color: #6699cc;
+}
+
+section#aus-team-leaders .aus-photo .content-rollover {
+  display: none;
+}
+
+/*additional top padding for first item*/
+section#aus-team-leaders .aus-photo .content-rollover#first {
+  padding-top: 10px;
+}
+
+/*additional top padding for second item*/
+section#aus-team-leaders .aus-photo .content-rollover#second {
+  padding-top: 30px;
+}
+
+section#aus-team-leaders .aus-photo:hover .content-show {
+  display: none;
+}
+section#aus-team-leaders .aus-photo:hover .content-rollover {
+  color: #fff;
+  display: block;
+}
+
+@media (min-width: 320px) and (max-width: 668px) {
+  .centered {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .blue-bg-title {
+    /*min-height: 108px;*/
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  section#aus-team-leaders .aus-photo:hover {
+    padding: 40px 20px 0 !important;
+  }
+
+  section#aus-team-leaders .aus-photo .content-rollover#first {
+    padding-top: 0 !important;
+  }
+
+  /*additional top padding for second item*/
+  section#aus-team-leaders .aus-photo .content-rollover#second {
+    padding-top: 0 !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  ul.list-big-icon {
+    padding-left: 15px;
+  }
+}
