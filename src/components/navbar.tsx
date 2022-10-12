@@ -146,7 +146,7 @@ export const Navbar: React.FC = () => {
                 <Link href={`${basePath}/events-workshops`}>Kurskalender</Link>
               </li>
               <li>
-                <a href="resources.html">Ressurser</a>
+                <Link href={`${basePath}/resources`}>Ressurser</Link>
               </li>
               <li>
                 <a href="about-us.html">Om oss</a>
