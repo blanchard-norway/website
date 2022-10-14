@@ -1,7 +1,10 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 export const Footer: React.FC = () => {
+  const basePath = '/new';
+
   return (
     <div className="footer container-full">
       <div className="sub-footer">
@@ -134,10 +137,10 @@ export const Footer: React.FC = () => {
             <div className="col-sm-3">
               <p className="privacy-map text-right">
                 <span className="privacy">
-                  <a href="privacy-policy.html">Personvernserklæring</a>
+                  <Link href={`${basePath}/privacy-policy`}>Personvernserklæring</Link>
                 </span>
                 <span className="map">
-                  <a href="site-map.html">Sidekart</a>
+                  <Link href={`${basePath}/site-map`}>Sidekart</Link>
                 </span>
               </p>
             </div>
