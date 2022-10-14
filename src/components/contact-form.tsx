@@ -23,7 +23,7 @@ export const ContactForm: React.FC = () => {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm();
+  } = useForm<FormData>();
 
   const onSubmit: SubmitHandler<FormData> = async (data: FormData) => {
     const token = await reCaptchaRef.current?.executeAsync();
@@ -164,15 +164,15 @@ export const ContactForm: React.FC = () => {
                 <div className="col-sm-6">
                   <div
                     className={`form-group ${
-                      errors.zip?.type === 'required' && 'has-error has-danger'
+                      errors.zipCode?.type === 'required' && 'has-error has-danger'
                     }`}
                   >
                     <label htmlFor="zip">Postnummer*</label>
-                    {errors.zip?.type === 'required' && (
+                    {errors.zipCode?.type === 'required' && (
                       <div className="help-block with-errors">Required</div>
                     )}
                     <input
-                      {...register('zip', { required: true })}
+                      {...register('zipCode', { required: true })}
                       className="form-control"
                     />
                   </div>
