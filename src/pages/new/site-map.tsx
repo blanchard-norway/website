@@ -2,7 +2,7 @@ import { NextPage } from 'next';
 import Link from 'next/link';
 import { Layout } from '../../components/layout';
 
-const AboutUs: NextPage = () => {
+const SiteMap: NextPage = () => {
   const basePath = '/new';
 
   return (
@@ -190,4 +190,4 @@ const AboutUs: NextPage = () => {
   );
 };
 
-export default AboutUs;
+export default SiteMap;
