@@ -5,7 +5,7 @@ import { Layout } from '../../components/layout';
 const GetStarted: NextPage = () => {
   return (
     <Layout>
-      <ContactForm />
+      <ContactForm  />
     </Layout>
   );
 };

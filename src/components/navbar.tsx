@@ -68,16 +68,16 @@ export const Navbar: React.FC = () => {
               <span className="icon-bar middle-bar"></span>
               <span className="icon-bar bottom-bar"></span>
             </button>
-            <a className="navbar-brand">
-              <Link href={basePath}>
+            <Link href={basePath}>
+              <a className="navbar-brand">
                 <Image
                   src="/images/global-mini/global-mini-logo.png"
                   width="330"
                   height="72"
                   alt="Mini Logo"
                 />
-              </Link>
-            </a>
+              </a>
+            </Link>
           </div>
         </div>
         <div className="container">
@@ -161,14 +161,12 @@ export const Navbar: React.FC = () => {
 
       <div className="container-fluid">
         <div className="mobile-logo center-block">
-          <a href="/images/Blanchard-Norway-Logo-Black.png">
-            <Image
+          <Image
               src="/images/Blanchard-Norway-Logo-Black.png"
               width="330"
               height="167"
               alt="Secondary logo"
             />
-          </a>
         </div>
       </div>
     </>

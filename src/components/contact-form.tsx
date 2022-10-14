@@ -190,6 +190,7 @@ export const ContactForm: React.FC = () => {
                     )}
                     <select
                       className="form-control"
+                      defaultValue={'Norway'}
                       {...register('country', { required: true })}
                     >
                       <option value="">Velg</option>
@@ -396,7 +397,7 @@ export const ContactForm: React.FC = () => {
                       <option value="Northern Mariana Islands">
                         Northern Mariana Islands
                       </option>
-                      <option value="Norway" selected={true}>
+                      <option value="Norway">
                         Norway
                       </option>
                       <option value="Oman">Oman</option>
