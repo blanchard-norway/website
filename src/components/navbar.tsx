@@ -140,7 +140,9 @@ export const Navbar: React.FC = () => {
                 </ul>
               </li>
               <li>
-                <a href="how.html">Hvordan vi arbeider med deg</a>
+                <Link href={`${basePath}/how`}>
+                  Hvordan vi arbeider med deg
+                </Link>
               </li>
               <li>
                 <Link href={`${basePath}/events-workshops`}>Kurskalender</Link>
@@ -152,7 +154,7 @@ export const Navbar: React.FC = () => {
                 <Link href={`${basePath}/about-us`}>Om oss</Link>
               </li>
               <li>
-                <a href="get-started.html">Kom i gang</a>
+                <Link href={`${basePath}/get-started`}>Kom i gang</Link>
               </li>
             </ul>
           </div>
