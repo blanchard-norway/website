@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { createRef, useState } from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
-import { useForm } from 'react-hook-form';
+import { SubmitHandler, useForm } from 'react-hook-form';
 
 type FormData = {
   firstName: string;
@@ -25,7 +25,7 @@ export const ContactForm: React.FC = () => {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = async (data: FormData) => {
+  const onSubmit: SubmitHandler<FormData> = async (data: FormData) => {
     const token = await reCaptchaRef.current?.executeAsync();
 
     const res = await axios.post('/api/contact', { ...data, token });
