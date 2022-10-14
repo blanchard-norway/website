@@ -1,6 +1,40 @@
-import React from 'react';
+import axios from 'axios';
+import React, { createRef, useState } from 'react';
+import ReCAPTCHA from 'react-google-recaptcha';
+import { useForm } from 'react-hook-form';
+
+type FormData = {
+  firstName: string;
+  lastName: string;
+  company: string;
+  title: string;
+  email: string;
+  phone: string;
+  zipCode: string;
+  country: string;
+  message: string;
+};
 
 export const ContactForm: React.FC = () => {
+  const reCaptchaRef = createRef<ReCAPTCHA>();
+  const [success, setSuccess] = useState(false);
+  const [error, setError] = useState(false);
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+
+  const onSubmit = async (data: FormData) => {
+    const token = await reCaptchaRef.current?.executeAsync();
+
+    const res = await axios.post('/api/contact', { ...data, token });
+    if (res.status === 200) {
+      return setSuccess(true);
+    }
+    return setError(true);
+  };
+
   return (
     <>
       <section className="white">
@@ -16,126 +50,147 @@ export const ContactForm: React.FC = () => {
               </p>
             </div>
           </div>
-          <form
-            action="MAILTO:info@blanchard.no"
-            method="GET"
-            encType="text/plain"
-          >
+          <form onSubmit={handleSubmit(onSubmit)}>
             <div className="big-form margin-20">
               <div className="row">
                 <div className="col-sm-6">
-                  <div className="form-group">
+                  <div
+                    className={`form-group ${
+                      errors.firstName?.type === 'required' &&
+                      'has-error has-danger'
+                    }`}
+                  >
                     <label htmlFor="first-name">Fornavn*</label>
-                    <div className="help-block with-errors"></div>
+                    {errors.firstName?.type === 'required' && (
+                      <div className="help-block with-errors">Required</div>
+                    )}
                     <input
-                      type="text"
+                      {...register('firstName', { required: true })}
                       className="form-control"
-                      id="first-name"
-                      name="first-name"
-                      data-error="Required"
-                      required={true}
                     />
                   </div>
                 </div>
                 <div className="col-sm-6">
-                  <div className="form-group">
+                  <div
+                    className={`form-group ${
+                      errors.lastName?.type === 'required' &&
+                      'has-error has-danger'
+                    }`}
+                  >
                     <label htmlFor="last-name">Etternavn*</label>
-                    <div className="help-block with-errors"></div>
+                    {errors.lastName?.type === 'required' && (
+                      <div className="help-block with-errors">Required</div>
+                    )}
                     <input
-                      type="text"
+                      {...register('lastName', { required: true })}
                       className="form-control"
-                      id="last-name"
-                      name="last-name"
-                      data-error="Required"
-                      required={true}
                     />
                   </div>
                 </div>
               </div>
               <div className="row">
                 <div className="col-sm-6">
-                  <div className="form-group">
+                  <div
+                    className={`form-group ${
+                      errors.company?.type === 'required' &&
+                      'has-error has-danger'
+                    }`}
+                  >
                     <label htmlFor="company-name">Firmanavn*</label>
-                    <div className="help-block with-errors"></div>
+                    {errors.company?.type === 'required' && (
+                      <div className="help-block with-errors">Required</div>
+                    )}
                     <input
-                      type="text"
+                      {...register('company', { required: true })}
                       className="form-control"
-                      id="company-name"
-                      name="company-name"
-                      data-error="Required"
-                      required={true}
                     />
                   </div>
                 </div>
                 <div className="col-sm-6">
-                  <div className="form-group">
+                  <div
+                    className={`form-group ${
+                      errors.title?.type === 'required' &&
+                      'has-error has-danger'
+                    }`}
+                  >
                     <label htmlFor="title">Tittel*</label>
-                    <div className="help-block with-errors"></div>
+                    {errors.title?.type === 'required' && (
+                      <div className="help-block with-errors">Required</div>
+                    )}
                     <input
-                      type="text"
+                      {...register('title', { required: true })}
                       className="form-control"
-                      id="title"
-                      name="title"
-                      data-error="Required"
-                      required={true}
                     />
                   </div>
                 </div>
               </div>
               <div className="row">
                 <div className="col-sm-6">
-                  <div className="form-group">
+                  <div
+                    className={`form-group ${
+                      errors.email?.type === 'required' &&
+                      'has-error has-danger'
+                    }`}
+                  >
                     <label htmlFor="email">E-postadresse*</label>
-                    <div className="help-block with-errors"></div>
+                    {errors.email?.type === 'required' && (
+                      <div className="help-block with-errors">Required</div>
+                    )}
                     <input
-                      type="text"
+                      {...register('email', { required: true })}
                       className="form-control"
-                      id="email"
-                      name="email"
-                      data-error="Required"
-                      required={true}
                     />
                   </div>
                 </div>
                 <div className="col-sm-6">
-                  <div className="form-group">
+                  <div
+                    className={`form-group ${
+                      errors.phone?.type === 'required' &&
+                      'has-error has-danger'
+                    }`}
+                  >
                     <label htmlFor="Phone">Telefonnummer*</label>
-                    <div className="help-block with-errors"></div>
+                    {errors.phone?.type === 'required' && (
+                      <div className="help-block with-errors">Required</div>
+                    )}
                     <input
-                      type="text"
+                      {...register('phone', { required: true })}
                       className="form-control"
-                      id="Phone"
-                      name="Phone"
-                      data-error="Required"
-                      required={true}
                     />
                   </div>
                 </div>
               </div>
               <div className="row">
                 <div className="col-sm-6">
-                  <div className="form-group">
+                  <div
+                    className={`form-group ${
+                      errors.zip?.type === 'required' && 'has-error has-danger'
+                    }`}
+                  >
                     <label htmlFor="zip">Postnummer*</label>
-                    <div className="help-block with-errors"></div>
+                    {errors.zip?.type === 'required' && (
+                      <div className="help-block with-errors">Required</div>
+                    )}
                     <input
-                      type="text"
+                      {...register('zip', { required: true })}
                       className="form-control"
-                      id="zip"
-                      name="zip"
-                      data-error="ENTER A VALUE"
-                      required={true}
                     />
                   </div>
                 </div>
                 <div className="col-sm-6">
-                  <div className="form-group">
+                  <div
+                    className={`form-group ${
+                      errors.country?.type === 'required' &&
+                      'has-error has-danger'
+                    }`}
+                  >
                     <label htmlFor="country">Land*</label>
-                    <div className="help-block with-errors"></div>
+                    {errors.country?.type === 'required' && (
+                      <div className="help-block with-errors">Required</div>
+                    )}
                     <select
                       className="form-control"
-                      name="country"
-                      data-error="Required"
-                      required={true}
+                      {...register('country', { required: true })}
                     >
                       <option value="">Velg</option>
                       <option value="Afghanistan">Afghanistan</option>
@@ -461,57 +516,35 @@ export const ContactForm: React.FC = () => {
                     <label htmlFor="message">Melding</label>
                     <textarea
                       className="form-control"
-                      name="message"
+                      {...register('message')}
                     ></textarea>
                   </div>
                 </div>
               </div>
-              <div className="row">
-                <div className="text-center col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
-                  <div className="form-group center-block">
-                    <div
-                      className="g-recaptcha"
-                      data-sitekey="6LfDPxgUAAAAAJglZWPm_3b-_TzTijND-nf2J64u"
-                    >
-                      <div style={{ width: 304, height: 78 }}>
-                        <div>
-                          <iframe
-                            title="reCAPTCHA"
-                            src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfDPxgUAAAAAJglZWPm_3b-_TzTijND-nf2J64u&amp;co=aHR0cDovL2xvY2FsaG9zdDozMDAw&amp;hl=en&amp;v=vP4jQKq0YJFzU6e21-BGy3GP&amp;size=normal&amp;cb=fdz4x3gygqu"
-                            width="304"
-                            height="78"
-                            role="presentation"
-                            name="a-qeykdhqty55y"
-                            frameBorder="0"
-                            scrolling="no"
-                            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
-                          ></iframe>
-                        </div>
-                        <textarea
-                          id="g-recaptcha-response"
-                          name="g-recaptcha-response"
-                          className="g-recaptcha-response"
-                          style={{
-                            width: 250,
-                            height: 40,
-                            border: '1px solid rgb(193, 193, 193)',
-                            margin: '10px 25px',
-                            padding: 0,
-                            resize: 'none',
-                            display: 'none',
-                          }}
-                        ></textarea>
-                      </div>
-                      <iframe style={{ display: 'none' }}></iframe>
-                    </div>
+              {
+                success && (
+                  <div className="alert alert-success" role="alert">
+                    Suksess! Et teammedlem vil komme tilbake til deg så snart som mulig.
                   </div>
-                </div>
-              </div>
+                )
+              }
+              {
+                error && (
+                  <div className="alert alert-danger" role="alert">
+                    Feil under forsøk på å sende kontaktskjemaet ditt.
+                  </div>
+                )
+              }
+              <ReCAPTCHA
+                ref={reCaptchaRef}
+                sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITEKEY as string}
+                size="invisible"
+              />
               <div className="row margins-50">
                 <div className="text-center col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
                   <button
                     type="submit"
-                    className="btn btn-primary btn-lg btn-block center-block no-ul disabled"
+                    className="btn btn-primary btn-lg btn-block center-block no-ul"
                   >
                     Send inn
                   </button>

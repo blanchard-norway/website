@@ -4555,3 +4555,11 @@ section#aus-team-leaders .aus-photo:hover .content-rollover {
     padding-left: 15px;
   }
 }
+
+.help-block{
+  display: inline-block;
+  float: right;
+  margin-top: 0;
+  text-align: right;
+  text-transform: uppercase;
+}
