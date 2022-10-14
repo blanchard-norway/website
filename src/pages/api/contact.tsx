@@ -35,7 +35,7 @@ export default async function handler(
     zipCode,
     country,
     message,
-    token
+    token,
   }: Body = req.body;
 
   if (!token) {
@@ -43,7 +43,9 @@ export default async function handler(
   }
 
   try {
-    const recaptcha = await axios.get(`https://www.google.com/recaptcha/api/siteverify?secret=${process.env.RECAPTCHA_SECRET}&response=${token}`);
+    const recaptcha = await axios.get(
+      `https://www.google.com/recaptcha/api/siteverify?secret=${process.env.RECAPTCHA_SECRET}&response=${token}`,
+    );
     if (!recaptcha.data.success) {
       return res.status(400).json({ error: 'Invalid RECaptcha token' });
     }

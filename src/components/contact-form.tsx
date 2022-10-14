@@ -397,9 +397,7 @@ export const ContactForm: React.FC = () => {
                       <option value="Northern Mariana Islands">
                         Northern Mariana Islands
                       </option>
-                      <option value="Norway">
-                        Norway
-                      </option>
+                      <option value="Norway">Norway</option>
                       <option value="Oman">Oman</option>
                       <option value="Pakistan">Pakistan</option>
                       <option value="Palau">Palau</option>
@@ -522,20 +520,17 @@ export const ContactForm: React.FC = () => {
                   </div>
                 </div>
               </div>
-              {
-                success && (
-                  <div className="alert alert-success" role="alert">
-                    Suksess! Et teammedlem vil komme tilbake til deg så snart som mulig.
-                  </div>
-                )
-              }
-              {
-                error && (
-                  <div className="alert alert-danger" role="alert">
-                    Feil under forsøk på å sende kontaktskjemaet ditt.
-                  </div>
-                )
-              }
+              {success && (
+                <div className="alert alert-success" role="alert">
+                  Suksess! Et teammedlem vil komme tilbake til deg så snart som
+                  mulig.
+                </div>
+              )}
+              {error && (
+                <div className="alert alert-danger" role="alert">
+                  Feil under forsøk på å sende kontaktskjemaet ditt.
+                </div>
+              )}
               <ReCAPTCHA
                 ref={reCaptchaRef}
                 sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITEKEY as string}

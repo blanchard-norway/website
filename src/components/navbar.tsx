@@ -149,7 +149,7 @@ export const Navbar: React.FC = () => {
                 <Link href={`${basePath}/resources`}>Ressurser</Link>
               </li>
               <li>
-              <Link href={`${basePath}/about-us`}>Om oss</Link>
+                <Link href={`${basePath}/about-us`}>Om oss</Link>
               </li>
               <li>
                 <a href="get-started.html">Kom i gang</a>
@@ -162,11 +162,11 @@ export const Navbar: React.FC = () => {
       <div className="container-fluid">
         <div className="mobile-logo center-block">
           <Image
-              src="/images/Blanchard-Norway-Logo-Black.png"
-              width="330"
-              height="167"
-              alt="Secondary logo"
-            />
+            src="/images/Blanchard-Norway-Logo-Black.png"
+            width="330"
+            height="167"
+            alt="Secondary logo"
+          />
         </div>
       </div>
     </>
