@@ -35,7 +35,7 @@ const How: NextPage = () => {
             <div className="row">
               <div className="col-xs-12 breadcrumbs">
                 <a href="/">HJEM</a>
-                <span className="divider">//</span>HVORDAN VI ARBEIDER MED DEG
+                <span className="divider">{'//'}</span>HVORDAN VI ARBEIDER MED DEG
               </div>
             </div>
             <div className="row">
