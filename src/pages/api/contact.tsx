@@ -2,6 +2,7 @@ import sgMail from '@sendgrid/mail';
 import axios from 'axios';
 import type { NextApiRequest, NextApiResponse } from 'next';
 import validator from 'validator';
+import getConfig from 'next/config';
 
 type Body = {
   firstName: string;
@@ -25,6 +26,8 @@ export default async function handler(
     return;
   }
 
+  const { serverRuntimeConfig } = getConfig();
+
   const {
     firstName,
     lastName,
@@ -44,7 +47,7 @@ export default async function handler(
 
   try {
     const recaptcha = await axios.get(
-      `https://www.google.com/recaptcha/api/siteverify?secret=${process.env.RECAPTCHA_SECRET}&response=${token}`,
+      `https://www.google.com/recaptcha/api/siteverify?secret=${serverRuntimeConfig.reSecret}&response=${token}`,
     );
     if (!recaptcha.data.success) {
       return res.status(400).json({ error: 'Invalid RECaptcha token' });
@@ -61,11 +64,11 @@ export default async function handler(
     return res.status(400).json({ error: 'Invalid phone number' });
   }
 
-  sgMail.setApiKey(process.env.SENDGRID_KEY as string);
+  sgMail.setApiKey(serverRuntimeConfig.sendgridKey);
 
   const msg = {
-    to: process.env.CONTACT_TO as string,
-    from: process.env.CONTACT_FROM as string,
+    to: serverRuntimeConfig.contactTo,
+    from: serverRuntimeConfig.contactFrom,
     reply_to: email,
     subject: `New message from ${firstName} ${lastName} from ${country}`,
     html: `<b>Company:</b> ${company}<br/><b>Title:</b> ${title}<br/><b>First name:</b> ${firstName}<br/><b>Last name:</b> ${lastName}<br/><b>Email:</b> ${email}<br/><b>Phone:</b> ${phone}<br/><b>Zip code:</b> ${zipCode}<br/><b>Country:</b> ${country}<br/><b>Message:</b> ${message}`,

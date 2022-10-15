@@ -1,9 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import getConfig from "next/config";
 
 export const Footer: React.FC = () => {
-  const basePath = '/new';
+  const { publicRuntimeConfig } = getConfig();
+  const { basePath } = publicRuntimeConfig;
 
   return (
     <div className="footer container-full">

@@ -2,7 +2,8 @@ import axios from 'axios';
 import React, { createRef, useState } from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
 import { SubmitHandler, useForm } from 'react-hook-form';
-import {useRouter} from "next/router";
+import { useRouter } from "next/router";
+import getConfig from "next/config";
 
 type FormData = {
   firstName: string;
@@ -18,6 +19,8 @@ type FormData = {
 
 export const ContactForm: React.FC = () => {
   const router = useRouter();
+  const { publicRuntimeConfig } = getConfig();
+
   const reCaptchaRef = createRef<ReCAPTCHA>();
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(false);
@@ -536,7 +539,7 @@ export const ContactForm: React.FC = () => {
               )}
               <ReCAPTCHA
                 ref={reCaptchaRef}
-                sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITEKEY as string}
+                sitekey={publicRuntimeConfig.reSiteKey as string}
                 size="invisible"
               />
               <div className="row margins-50">

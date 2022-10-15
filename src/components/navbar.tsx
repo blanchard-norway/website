@@ -1,12 +1,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { createRef, useEffect } from 'react';
+import getConfig from 'next/config';
 
 export const Navbar: React.FC = () => {
+  const { publicRuntimeConfig } = getConfig();
   const dropdownMenu = createRef<HTMLDivElement>();
   const caret = createRef<HTMLDivElement>();
 
-  const basePath = '/new';
+  const { basePath } = publicRuntimeConfig;
 
   useEffect(() => {
     ($('.dropdown-toggle') as any).dropdownHover();
