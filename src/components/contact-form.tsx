@@ -1,9 +1,9 @@
 import axios from 'axios';
+import { useRouter } from 'next/router';
+import getConfig from 'next/config';
 import React, { createRef, useState } from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
 import { SubmitHandler, useForm } from 'react-hook-form';
-import { useRouter } from 'next/router';
-import getConfig from 'next/config';
 
 type FormData = {
   firstName: string;
