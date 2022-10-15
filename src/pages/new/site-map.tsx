@@ -52,7 +52,9 @@ const SiteMap: NextPage = () => {
                       className="CMSSiteMapLink"
                       title="SLII&lt;sup&gt;®&lt;/sup&gt; II"
                     >
-                      <a>SLII<sup>®</sup> . POWERING INSPIRED LEADERS<sup>™</sup></a>
+                      <a>
+                        SLII<sup>®</sup> . POWERING INSPIRED LEADERS<sup>™</sup>
+                      </a>
                     </Link>
                   </li>
                   <li className="CMSSiteMapListItem">
