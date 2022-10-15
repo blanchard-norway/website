@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { createRef, useState } from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
 import { SubmitHandler, useForm } from 'react-hook-form';
+import {useRouter} from "next/router";
 
 type FormData = {
   firstName: string;
@@ -16,6 +17,7 @@ type FormData = {
 };
 
 export const ContactForm: React.FC = () => {
+  const router = useRouter();
   const reCaptchaRef = createRef<ReCAPTCHA>();
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(false);
@@ -30,6 +32,7 @@ export const ContactForm: React.FC = () => {
 
     const res = await axios.post('/api/contact', { ...data, token });
     if (res.status === 200) {
+      router.push("/new/thank-you");
       return setSuccess(true);
     }
     return setError(true);
