@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import getConfig from "next/config";
+import getConfig from 'next/config';
 
 export const Footer: React.FC = () => {
   const { publicRuntimeConfig } = getConfig();
@@ -139,7 +139,9 @@ export const Footer: React.FC = () => {
             <div className="col-sm-3">
               <p className="privacy-map text-right">
                 <span className="privacy">
-                  <Link href={`${basePath}/privacy-policy`}>Personvernserklæring</Link>
+                  <Link href={`${basePath}/privacy-policy`}>
+                    Personvernserklæring
+                  </Link>
                 </span>
                 <span className="map">
                   <Link href={`${basePath}/site-map`}>Sidekart</Link>

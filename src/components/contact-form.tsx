@@ -2,8 +2,8 @@ import axios from 'axios';
 import React, { createRef, useState } from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
 import { SubmitHandler, useForm } from 'react-hook-form';
-import { useRouter } from "next/router";
-import getConfig from "next/config";
+import { useRouter } from 'next/router';
+import getConfig from 'next/config';
 
 type FormData = {
   firstName: string;
@@ -35,7 +35,7 @@ export const ContactForm: React.FC = () => {
 
     const res = await axios.post('/api/contact', { ...data, token });
     if (res.status === 200) {
-      router.push("/new/thank-you");
+      router.push('/new/thank-you');
       return setSuccess(true);
     }
     return setError(true);
@@ -170,7 +170,8 @@ export const ContactForm: React.FC = () => {
                 <div className="col-sm-6">
                   <div
                     className={`form-group ${
-                      errors.zipCode?.type === 'required' && 'has-error has-danger'
+                      errors.zipCode?.type === 'required' &&
+                      'has-error has-danger'
                     }`}
                   >
                     <label htmlFor="zip">Postnummer*</label>
