@@ -1,6 +1,6 @@
+import getConfig from 'next/config';
 import Image from 'next/image';
 import Link from 'next/link';
-import getConfig from 'next/config';
 import React, { createRef, useEffect } from 'react';
 
 export const Navbar: React.FC = () => {

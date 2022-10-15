@@ -1,6 +1,6 @@
+import getConfig from 'next/config';
 import Image from 'next/image';
 import Link from 'next/link';
-import getConfig from 'next/config';
 import React from 'react';
 
 export const Footer: React.FC = () => {
