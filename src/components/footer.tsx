@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
 import getConfig from 'next/config';
+import React from 'react';
 
 export const Footer: React.FC = () => {
   const { publicRuntimeConfig } = getConfig();

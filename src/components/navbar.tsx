@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React, { createRef, useEffect } from 'react';
 import getConfig from 'next/config';
+import React, { createRef, useEffect } from 'react';
 
 export const Navbar: React.FC = () => {
   const { publicRuntimeConfig } = getConfig();

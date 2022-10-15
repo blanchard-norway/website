@@ -1,8 +1,8 @@
 import sgMail from '@sendgrid/mail';
 import axios from 'axios';
 import type { NextApiRequest, NextApiResponse } from 'next';
-import validator from 'validator';
 import getConfig from 'next/config';
+import validator from 'validator';
 
 type Body = {
   firstName: string;
