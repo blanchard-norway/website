@@ -2989,20 +2989,23 @@ ul.small-indent.tight li {
   display: none;
 }
 
+.productstop div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .productstop .slick-slide {
   text-align: center;
 }
 
-.productstop .slick-slide::before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
+.productstop .slick-prev {
+  padding: 0px 0px 35px 40px;
 }
 
-.productstop .slick-slide p {
-  vertical-align: middle;
-  display: inline-block;
+.productstop .slick-next {
+  padding: 0px 60px 35px 0px;
 }
 
 .productstop .slick-track {
@@ -4561,4 +4564,10 @@ section#aus-team-leaders .aus-photo:hover .content-rollover {
   margin-top: 0;
   text-align: right;
   text-transform: uppercase;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .col-sm-offset-1-and-half {
+    margin-left: 9% !important;
+  }
 }
