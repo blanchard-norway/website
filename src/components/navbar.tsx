@@ -89,20 +89,21 @@ export const Navbar: React.FC = () => {
                 <a href="index.html">Hjem</a>
               </li>
               <li className="dropdown">
-                <a
-                  href="products.html"
-                  className="dropdown-toggle"
-                  onClick={onDropdownClick}
-                  data-toggle="dropdown"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Kurs og tjenester <b className="caret" ref={caret}></b>
-                </a>
+                <Link href={`${basePath}/products`}>
+                  <a
+                    className="dropdown-toggle"
+                    onClick={onDropdownClick}
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Kurs og tjenester <b className="caret" ref={caret}></b>
+                  </a>
+                </Link>
                 <ul className="dropdown-menu">
                   <li className="hidden-lg">
-                    <a href="products.html">Oversikt</a>
+                    <Link href={`${basePath}/products`}>Oversikt</Link>
                   </li>
                   <li>
                     <a href="product-sl.html">
