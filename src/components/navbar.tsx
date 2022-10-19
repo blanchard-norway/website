@@ -106,10 +106,12 @@ export const Navbar: React.FC = () => {
                     <Link href={`${basePath}/products`}>Oversikt</Link>
                   </li>
                   <li>
-                    <a href="product-sl.html">
-                      SLII<sup>&reg; </sup>. POWERING INSPIRED LEADERS
-                      <sup>&trade; </sup>
-                    </a>
+                    <Link href={`${basePath}/products/sl`}>
+                      <a>
+                        SLII<sup>&reg; </sup>. POWERING INSPIRED LEADERS
+                        <sup>&trade; </sup>
+                      </a>
+                    </Link>
                   </li>
                   <li>
                     <a href="product-change.html">Endringsledelse</a>
