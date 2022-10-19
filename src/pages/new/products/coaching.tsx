@@ -55,7 +55,7 @@ const ProductCoaching: NextPage = () => {
               <div className="col-xs-12 breadcrumbs">
                 <a href="/">HJEM</a> <span className="divider">{'//'}</span>
                 <a href="products.html">produkter og tjenester</a>
-                <span className="divider">//</span>Grunnleggende Coaching
+                <span className="divider">{'//'}</span>Grunnleggende Coaching
               </div>
             </div>
             <div className="row">
@@ -125,7 +125,7 @@ const ProductCoaching: NextPage = () => {
             </div>
             <div className="row">
               <div className="col-sm-4 col-sm-offset-4 text-center">
-                <Link href="get-started.html">
+                <Link href={`${basePath}/get-started`}>
                   <a className="btn btn-primary btn-lg">Kom i gang</a>
                 </Link>
               </div>
