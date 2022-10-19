@@ -112,7 +112,9 @@ export const Navbar: React.FC = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="product-change.html">Endringsledelse</a>
+                    <Link href={`${basePath}/products/change`}>
+                      Endringsledelse
+                    </Link>
                   </li>
                   <li>
                     <a href="product-coaching.html">Grunnleggende coaching</a>
