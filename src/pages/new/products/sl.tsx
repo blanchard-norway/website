@@ -1,6 +1,7 @@
 import { NextPage } from 'next';
 import getConfig from 'next/config';
 import Image from 'next/image';
+import FutureImage from 'next/future/image';
 import Link from 'next/link';
 import { createRef } from 'react';
 import { Layout } from '../../../components/layout';
@@ -92,7 +93,7 @@ const ProductSl: NextPage = () => {
               <div className="col-md-3 col-sm-6 box">
                 <div id="box1">
                   <div className="content-show">
-                    <Image
+                    <FutureImage
                       className="img-responsive"
                       src="/images/sl2-sl2-training-research.png"
                       width={64}
@@ -104,7 +105,7 @@ const ProductSl: NextPage = () => {
                   <div className="content-rollover">
                     <strong>
                       SLII<sup>® </sup>
-                    </strong>{' '}
+                    </strong>
                     bygger på mer enn 30 års forskning på ledelse og trivsel på
                     jobb, og har blitt oppdatert med de siste resultatene innen
                     nevrovitenskap. Programmet blir kontinuerlig tilpasset de
@@ -115,7 +116,7 @@ const ProductSl: NextPage = () => {
               <div className="col-md-3 col-sm-6 box">
                 <div id="box2">
                   <div className="content-show">
-                    <Image
+                    <FutureImage
                       className="img-responsive"
                       src="/images/sl2-sl2-model-increased-productivity.png"
                       width={46}
@@ -138,7 +139,7 @@ const ProductSl: NextPage = () => {
               <div className="col-md-3 col-sm-6 box">
                 <div id="box3">
                   <div className="content-show">
-                    <Image
+                    <FutureImage
                       className="img-responsive"
                       src="/images/sl2-international-sl2-training.png"
                       width={63}
@@ -161,7 +162,7 @@ const ProductSl: NextPage = () => {
               <div className="col-md-3 col-sm-6 box">
                 <div id="box4">
                   <div className="content-show">
-                    <Image
+                    <FutureImage
                       className="img-responsive"
                       src="/images/sl2-sl2-theory-brain-science.png"
                       width={56}
@@ -235,9 +236,11 @@ const ProductSl: NextPage = () => {
                 </div>
                 <div className="col-lg-3 col-md-2 col-sm-3 arrow center-block hidden-xs">
                   <div className="spacer">
-                    <img
+                    <FutureImage
                       className="img-responsive"
                       src="/images/sl2-different-sl2-styles.png"
+                      width={169}
+                      height={91}
                       alt="Successful managers use different situational leadership styles depending on the occasion"
                     />
                   </div>
@@ -293,10 +296,12 @@ const ProductSl: NextPage = () => {
                     onAnimationEnd={onMenEnd}
                   >
                     <div className="col-xs-3 center-block sl-icon">
-                      <img
+                      <FutureImage
                         src="/images/sl2-sl2-style-accelerates-development.png"
                         alt="Managers using a SLII leadership style help accelerate the development of their teams"
-                        class="img-responsive pull-right"
+                        className="img-responsive pull-right"
+                        width={71}
+                        height={41}
                       />
                     </div>
                     <div className="col-xs-9 sl-text">
@@ -315,10 +320,12 @@ const ProductSl: NextPage = () => {
                     onAnimationEnd={onChartEnd}
                   >
                     <div className="col-xs-3 center-block sl-icon">
-                      <img
+                      <FutureImage
                         src="/images/sl2-sl2-model-common-language.png"
                         alt="The SLII leadership model instills a common language within an organization"
                         className="img-responsive pull-right"
+                        width={71}
+                        height={53}
                       />
                     </div>
                     <div className="col-xs-9 sl-text">
@@ -338,10 +345,12 @@ const ProductSl: NextPage = () => {
                     onAnimationEnd={onMedalEnd}
                   >
                     <div className="col-xs-3 center-block sl-icon">
-                      <img
+                      <FutureImage
                         src="/images/sl2-sl2-style-raises-morale.png"
                         alt="Leaders who use a sLII leadership style raise morale, make others feel valued and increase retention"
                         className="img-responsive pull-right"
+                        width={71}
+                        height={49}
                       />
                     </div>
                     <div className="col-xs-9 sl-text">
@@ -355,10 +364,12 @@ const ProductSl: NextPage = () => {
                   </div>
                   <div className="row icon" id="brain" ref={brain}>
                     <div className="col-xs-3 center-block sl-icon">
-                      <img
+                      <FutureImage
                         src="/images/sl2-sl2-theory-problem-solving.png"
                         alt="Applying SLII leadership theory creates proactive problem solvers"
                         className="img-responsive pull-right"
+                        width={71}
+                        height={62}
                       />
                     </div>
                     <div className="col-xs-9 sl-text">
@@ -410,10 +421,12 @@ const ProductSl: NextPage = () => {
         </div>
         <div className="col-md-6 right">
           <div className="trust-graphic pull-right">
-            <img
+            <FutureImage
               src="/images/sl2-sl2-model-diagram.png"
               alt="The SLII model | Ken Blanchard"
-              class="img-responsive"
+              className="img-responsive"
+              width={485}
+              height={538}
             />
           </div>
           <div className="clearfix" />
@@ -454,9 +467,11 @@ const ProductSl: NextPage = () => {
                 <div className="col-md-6">
                   <div className="row checkbox-chart">
                     <div className="col-sm-1 col-xs-1">
-                      <img
+                      <FutureImage
                         src="/images/sl2-sl2-training-features.png"
                         alt="The SLII leadership training experience includes video demonstrations"
+                        width={33}
+                        height={28}
                       />
                     </div>
                     <div className="col-sm-11 col-xs-10 checkbox-text">
@@ -470,9 +485,11 @@ const ProductSl: NextPage = () => {
                 <div className="col-md-6">
                   <div className="row checkbox-chart">
                     <div className="col-sm-1 col-xs-1">
-                      <img
+                      <FutureImage
                         src="/images/sl2-sl2-training-features.png"
                         alt="The SLII leadership training experience includes real-world practice activities"
+                        width={33}
+                        height={28}
                       />
                     </div>
                     <div className="col-sm-11 col-xs-10 checkbox-text">
@@ -487,9 +504,11 @@ const ProductSl: NextPage = () => {
                 <div className="col-md-6">
                   <div className="row checkbox-chart">
                     <div className="col-sm-1 col-xs-1">
-                      <img
+                      <FutureImage
                         src="/images/sl2-sl2-training-features.png"
                         alt="Get a diagnosis app based on SLII leadership theory to plan conversations"
+                        width={33}
+                        height={28}
                       />
                     </div>
                     <div className="col-sm-11 col-xs-10 checkbox-text">
@@ -501,9 +520,11 @@ const ProductSl: NextPage = () => {
                 <div className="col-md-6">
                   <div className="row checkbox-chart">
                     <div className="col-sm-1 col-xs-1">
-                      <img
+                      <FutureImage
                         src="/images/sl2-sl2-training-features.png"
                         alt="Learn to master SLII leadership style skills | Ken Blanchard"
+                        width={33}
+                        height={28}
                       />
                     </div>
                     <div className="col-sm-11 col-xs-10 checkbox-text">
@@ -518,9 +539,11 @@ const ProductSl: NextPage = () => {
                 <div className="col-md-6">
                   <div className="row checkbox-chart">
                     <div className="col-sm-1 col-xs-1">
-                      <img
+                      <FutureImage
                         src="/images/sl2-sl2-training-features.png"
                         alt="SLII leadership eTools and Conversation Starters provide guidelines for conversations"
+                        width={33}
+                        height={28}
                       />
                     </div>
                     <div className="col-sm-11 col-xs-10 checkbox-text">
@@ -532,9 +555,11 @@ const ProductSl: NextPage = () => {
                 <div className="col-md-6">
                   <div className="row checkbox-chart">
                     <div className="col-sm-1 col-xs-1">
-                      <img
+                      <FutureImage
                         src="/images/sl2-sl2-training-features.png"
                         alt="Managers learn the SLII leadership model with feedback to help progress faster"
+                        width={33}
+                        height={28}
                       />
                     </div>
                     <div className="col-sm-11 col-xs-10 checkbox-text">
@@ -548,9 +573,11 @@ const ProductSl: NextPage = () => {
                 <div className="col-md-6">
                   <div className="row checkbox-chart">
                     <div className="col-sm-1 col-xs-1">
-                      <img
+                      <FutureImage
                         src="/images/sl2-sl2-training-features.png"
                         alt="SLII leadership training with Multiple SLII tools that can be shared with team members"
+                        width={33}
+                        height={28}
                       />
                     </div>
                     <div className="col-sm-11 col-xs-10 checkbox-text">
@@ -563,9 +590,11 @@ const ProductSl: NextPage = () => {
                 <div className="col-md-6">
                   <div className="row checkbox-chart">
                     <div className="col-sm-1 col-xs-1">
-                      <img
+                      <FutureImage
                         src="/images/sl2-sl2-training-features.png"
                         alt="Tips and suggestions based on the SLII leadership model"
+                        width={33}
+                        height={28}
                       />
                     </div>
                     <div className="col-sm-11 col-xs-10 checkbox-text">
@@ -579,9 +608,11 @@ const ProductSl: NextPage = () => {
                 <div className="col-md-6">
                   <div className="row checkbox-chart">
                     <div className="col-sm-1 col-xs-1">
-                      <img
+                      <FutureImage
                         src="/images/sl2-sl2-training-features.png"
                         alt="Tips and suggestions based on the SLII leadership model"
+                        width={33}
+                        height={28}
                       />
                     </div>
                     <div className="col-sm-11 col-xs-10 checkbox-text">
@@ -602,20 +633,24 @@ const ProductSl: NextPage = () => {
           </div>
           <div className="row margin-30">
             <div className="col-md-6 left">
-              <img
+              <FutureImage
                 src="/images/global-mini/global-mini-learn-more.jpg"
                 className="img-responsive"
                 alt="global-mini-learn-more"
+                width={521}
+                height={299}
               />
             </div>
             <div className="col-md-6 right learn-more">
               <ul>
                 <li>
                   <a href="/upload/2019/SLII_Opplevelsen.pdf">
-                    <img
+                    <FutureImage
                       src="/images/icon-download-bright-green.png"
                       alt="icon-download-bright-green"
-                    />{' '}
+                      width={36}
+                      height={26}
+                    />
                     Mer om SLII Opplevelsen
                   </a>
                 </li>
