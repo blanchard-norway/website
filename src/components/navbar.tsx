@@ -130,7 +130,9 @@ export const Navbar: React.FC = () => {
                     <a href="product-leading-virtualy.html">Lede virtuelt</a>
                   </li>
                   <li>
-                    <a href="product-service.html">Legendarisk kundeservice</a>
+                    <Link href={`${basePath}/service`}>
+                      Legendarisk kundeservice
+                    </Link>
                   </li>
                   <li>
                     <a href="product-optimal-motivation.html">
