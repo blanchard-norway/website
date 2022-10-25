@@ -7,7 +7,7 @@ import { createRef } from 'react';
 import { Layout } from '../../../components/layout';
 import { GetStartedContainer } from '../../../components/products/get-started';
 
-const ProductChange: NextPage = () => {
+const LeadingVirtually: NextPage = () => {
   const { publicRuntimeConfig } = getConfig();
   const { basePath } = publicRuntimeConfig;
 
@@ -315,4 +315,4 @@ const ProductChange: NextPage = () => {
   );
 };
 
-export default ProductChange;
+export default LeadingVirtually;
