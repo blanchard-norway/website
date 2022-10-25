@@ -133,9 +133,9 @@ export const Navbar: React.FC = () => {
                     <a href="product-service.html">Legendarisk kundeservice</a>
                   </li>
                   <li>
-                    <a href="product-optimal-motivation.html">
+                    <Link href={`${basePath}/optimal-motivation`}>
                       Optimal motivasjon
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a href="product-self-leadership.html">Selvledelse</a>
