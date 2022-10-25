@@ -1,6 +1,5 @@
 import { NextPage } from 'next';
 import getConfig from 'next/config';
-import Image from 'next/image';
 import FutureImage from 'next/future/image';
 import Link from 'next/link';
 import { createRef } from 'react';
@@ -55,9 +54,9 @@ const ProductSl: NextPage = () => {
           <div className="container">
             <div className="row">
               <div className="col-xs-12 breadcrumbs">
-                <a href="/">HJEM</a> <span className="divider">//</span>
+                <a href="/">HJEM</a> <span className="divider">{'//'}</span>
                 <a href="products.html">produkter og tjenester</a>
-                <span className="divider">//</span>SLII
+                <span className="divider">{'//'}</span>SLII
               </div>
             </div>
             <div className="row">
