@@ -145,7 +145,9 @@ export const Navbar: React.FC = () => {
                     <Link href={`${basePath}/self-leadership`}>Selvledelse</Link>
                   </li>
                   <li>
-                    <a href="product-teamleadership.html">Teamledelse</a>
+                    <Link href={`${basePath}/products/team-leadership`}>
+                      Teamledelse
+                    </Link>
                   </li>
                   <li>
                     <a href="product-trust.html">Tillitsledelse</a>
