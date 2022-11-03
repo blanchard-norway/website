@@ -8,6 +8,7 @@ import '../assets/css/animate.min.css';
 import '../assets/css/navbar-fixed-top.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import '../assets/css/junestyles.css';
 import Head from 'next/head';
 import Script from 'next/script';
 
