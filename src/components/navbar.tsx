@@ -154,7 +154,7 @@ export const Navbar: React.FC = () => {
                     </Link>
                   </li>
                   <li>
-                    <a href="product-trust.html">Tillitsledelse</a>
+                    <Link href={`${basePath}/products/trust`}>Tillitsledelse</Link>
                   </li>
                 </ul>
               </li>
