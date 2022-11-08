@@ -89,55 +89,72 @@ export const Navbar: React.FC = () => {
                 <a href="index.html">Hjem</a>
               </li>
               <li className="dropdown">
-                <a
-                  href="products.html"
-                  className="dropdown-toggle"
-                  onClick={onDropdownClick}
-                  data-toggle="dropdown"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Kurs og tjenester <b className="caret" ref={caret}></b>
-                </a>
+                <Link href={`${basePath}/products`}>
+                  <a
+                    className="dropdown-toggle"
+                    onClick={onDropdownClick}
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Kurs og tjenester <b className="caret" ref={caret}></b>
+                  </a>
+                </Link>
                 <ul className="dropdown-menu">
                   <li className="hidden-lg">
-                    <a href="products.html">Oversikt</a>
+                    <Link href={`${basePath}/products`}>Oversikt</Link>
                   </li>
                   <li>
-                    <a href="product-sl.html">
-                      SLII<sup>&reg; </sup>. POWERING INSPIRED LEADERS
-                      <sup>&trade; </sup>
-                    </a>
+                    <Link href={`${basePath}/products/sl`}>
+                      <a>
+                        SLII<sup>&reg; </sup>. POWERING INSPIRED LEADERS
+                        <sup>&trade; </sup>
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="product-change.html">Endringsledelse</a>
+                    <Link href={`${basePath}/products/change`}>
+                      Endringsledelse
+                    </Link>
                   </li>
                   <li>
-                    <a href="product-coaching.html">Grunnleggende coaching</a>
+                    <Link href={`${basePath}/products/coaching`}>
+                      Grunnleggende coaching
+                    </Link>
                   </li>
                   <li>
-                    <a href="product-managers.html">Kommunikasjon i ledelse</a>
+                    <Link href={`${basePath}/products/managers`}>
+                      Kommunikasjon i ledelse
+                    </Link>
                   </li>
                   <li>
-                    <a href="product-leading-virtualy.html">Lede virtuelt</a>
+                    <Link href={`${basePath}/products/leading-virtually`}>
+                      Lede virtuelt
+                    </Link>
                   </li>
                   <li>
-                    <a href="product-service.html">Legendarisk kundeservice</a>
+                    <Link href={`${basePath}/products/service`}>
+                      Legendarisk kundeservice
+                    </Link>
                   </li>
                   <li>
-                    <a href="product-optimal-motivation.html">
+                    <Link href={`${basePath}/products/optimal-motivation`}>
                       Optimal motivasjon
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="product-self-leadership.html">Selvledelse</a>
+                    <Link href={`${basePath}/products/self-leadership`}>
+                      Selvledelse
+                    </Link>
                   </li>
                   <li>
-                    <a href="product-teamleadership.html">Teamledelse</a>
+                    <Link href={`${basePath}/products/team-leadership`}>
+                      Teamledelse
+                    </Link>
                   </li>
                   <li>
-                    <a href="product-trust.html">Tillitsledelse</a>
+                    <Link href={`${basePath}/products/trust`}>Tillitsledelse</Link>
                   </li>
                 </ul>
               </li>
