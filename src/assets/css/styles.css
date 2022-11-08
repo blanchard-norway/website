@@ -4562,3 +4562,7 @@ section#aus-team-leaders .aus-photo:hover .content-rollover {
   text-align: right;
   text-transform: uppercase;
 }
+
+.row li {
+  list-style-type: none;
+}

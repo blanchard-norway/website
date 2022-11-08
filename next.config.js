@@ -6,16 +6,30 @@ const env = cleanEnv(process.env, {
   CONTACT_FROM: email({ default: 'info@blanchard.no' }),
   RECAPTCHA_SECRET: str(),
   RECAPTCHA_SITEKEY: str(),
-  BASE: str()
+  BASE: str(),
+});
+
+const withMDX = require('@next/mdx')({
+  extension: /\.mdx?$/,
+  options: {
+    // If you use remark-gfm, you'll need to use next.config.mjs
+    // as the package is ESM only
+    // https://github.com/remarkjs/remark-gfm#install
+    remarkPlugins: [],
+    rehypePlugins: [],
+    // If you use `MDXProvider`, uncomment the following line.
+    // providerImportSource: "@mdx-js/react",
+  },
 });
 
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+const nextConfig = withMDX({
+  pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
   reactStrictMode: true,
   swcMinify: true,
   publicRuntimeConfig: {
     basePath: env.BASE,
-    reSiteKey: env.RECAPTCHA_SITEKEY
+    reSiteKey: env.RECAPTCHA_SITEKEY,
   },
   serverRuntimeConfig: {
     sendgridKey: env.SENDGRID_KEY,
@@ -28,11 +42,11 @@ const nextConfig = {
       fallback: [
         {
           source: '/',
-          destination: '/index.html'
-        }
-      ]
-    }
-  }
-}
+          destination: '/index.html',
+        },
+      ],
+    };
+  },
+});
 
-module.exports = nextConfig
+module.exports = nextConfig;
