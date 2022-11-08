@@ -372,7 +372,7 @@ const AboutTeamKen: NextPage = () => {
         </div>
       </section>
 
-      <div class="clearfix"></div>
+      <div className="clearfix"></div>
     </Layout>
   );
 };
