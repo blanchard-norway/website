@@ -9,6 +9,7 @@ import '../assets/css/navbar-fixed-top.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import '../assets/css/junestyles.css';
+import '../assets/css/lity.min.css';
 import Head from 'next/head';
 import Script from 'next/script';
 
@@ -46,7 +47,13 @@ function MyApp({ Component, pageProps }: AppProps) {
         src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossOrigin="anonymous"
-      ></Script>
+      />
+      <Script
+        src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.js"
+        integrity="sha512-UU0D/t+4/SgJpOeBYkY+lG16MaNF8aqmermRIz8dlmQhOlBnw6iQrnt4Ijty513WB3w+q4JO75IX03lDj6qQNA=="
+        crossOrigin="anonymous"
+        referrerPolicy="no-referrer"
+      />
 
       <Component {...pageProps} />
     </>

@@ -1,5 +1,5 @@
 import { NextPage } from 'next';
-import Image from 'next/image';
+import Image from 'next/future/image';
 import { Layout } from '../../components/layout';
 
 const AboutTeamKen: NextPage = () => {
@@ -138,6 +138,241 @@ const AboutTeamKen: NextPage = () => {
           </div>
         </div>
       </section>
+
+      <section className="bluebg giving">
+        <div className="container">
+          <div className="row text-center">
+            <div className="col-xs-12">
+              <h2>
+                UTMERKELSER OG <span className="green-bg">ANERKJENNELSE</span>
+              </h2>
+              <p className="margin-30">
+                Ken har mottat mange utmerkelser for hans bidrag innen ledelse,
+                lederskap og foredrag.{' '}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="container-fluid">
+          <div className="col-sm-12 text-center">
+            <div className="row awards">
+              <div className="col-md-2 col-sm-offset-1 text-center award">
+                <Image
+                  width={124}
+                  height={81}
+                  src="/images/about-us-team-ken/ak-inc-leadership-training-award.png"
+                  alt="Inc. 100 Great Leadership Speakers leadership training award | Ken Blanchard"
+                />
+                <div className="margin-20">
+                  100 Great Leadership Speakers for Your Next Event
+                </div>
+              </div>
+              <div className="col-md-2 text-center award">
+                <Image
+                  width={129}
+                  height={81}
+                  src="/images/about-us-team-ken/ak-nsa-manager-training-award.png"
+                  alt="NSA Council of Peers Award of Excellence for leadership and manager training | Ken Blanchard"
+                />
+                <div className="margin-20">
+                  Council of Peers Award of Excellence
+                </div>
+              </div>
+              <div className="col-md-2 text-center award">
+                <Image
+                  width={160}
+                  height={81}
+                  src="/images/about-us-team-ken/ak-tm-leadership-training-award.png"
+                  alt="Management Training HRD Hall of Fame award | Ken Blanchard"
+                />
+                <div className="margin-20">HRD Hall of Fame</div>
+              </div>
+              <div className="col-md-2 text-center award">
+                <Image
+                  width={90}
+                  height={81}
+                  src="/images/about-us-team-ken/ak-toastmaster-manager-training-award.png"
+                  alt="Toastmaster Golden Gavel Award for Leadership and Management Training | Ken Blanchard"
+                />
+                <div className="margin-20">Golden Gavel Award</div>
+              </div>
+              <div className="col-md-2 text-center award">
+                <Image
+                  width={110}
+                  height={81}
+                  src="/images/about-us-team-ken/ak-isa-leadership-training-award.png"
+                  alt="Executive Leadership ISA Thought Leadership Award | Ken Blanchard"
+                />
+                <div className="margin-20">Thought Leadership Award</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="videos">
+        <div className="container-fluid">
+          <div className="container">
+            <div className="row text-center">
+              <div className="col-xs-12">
+                <h2>Videos</h2>
+              </div>
+            </div>
+            <div className="row margin-20">
+              <div className="col-md-4">
+                <div className="video-1">
+                  Ken Blanchard –<br />
+                  Skaper fremdeles historie
+                  <div className="watch-now">
+                    <a href="https://youtu.be/nBdJRuirKbM" data-lity>
+                      <Image
+                        alt="Watch Now"
+                        width={140}
+                        height={34}
+                        src="/images/about-us-team-ken/btn-watch-now.png"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="video-2">
+                  Ken Blanchard –<br /> TEDx San Diego
+                  <div className="watch-now">
+                    <a href="https://youtu.be/HKGkBRk1kSo" data-lity>
+                      <Image
+                        alt="Watch Now"
+                        width={140}
+                        height={34}
+                        src="/images/about-us-team-ken/btn-watch-now.png"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="video-3">
+                  Ken Blanchard –<br />
+                  Lederskapets synsvinkel
+                  <div className="watch-now">
+                    <a href="https://youtu.be/DZni2_j15PY" data-lity>
+                      <Image
+                        alt="Watch Now"
+                        width={140}
+                        height={34}
+                        src="/images/about-us-team-ken/btn-watch-now.png"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="books">
+        <div className="col-lg-10 col-lg-offset-1 text-center">
+          <div className="book-box">
+            <div className="container">
+              <h4>Bøker som er utgitt</h4>
+              <div className="row">
+                <div className="col-sm-3 text-center">
+                  <Image
+                    width={95}
+                    height={142}
+                    src="/images/ken/New-One-Minute-Manager-cover-sm.png"
+                    alt="Leadership Training and The New One Minute Manager book | Ken Blanchard"
+                  />
+                </div>
+                <div className="col-sm-3 text-center">
+                  <Image
+                    width={95}
+                    height={142}
+                    src="/images/ken/ak-customer-service-excellence-book.jpg"
+                    alt="Excellent customer service management program book | Ken Blanchard"
+                  />
+                </div>
+                <div className="col-sm-3 text-center">
+                  <Image
+                    width={95}
+                    height={142}
+                    src="/images/ken/TrustWorks-Book-sm.jpg"
+                    style={{ maxWidth: '95px' }}
+                    alt="Trust in the Workplace book | Ken Blanchard"
+                  />
+                </div>
+                <div className="col-sm-3 text-center">
+                  <Image
+                    width={95}
+                    height={142}
+                    src="/images/ken/Gung-Ho-book2-sm.jpg"
+                    alt="Gung Ho Book | Ken Blanchard"
+                  />
+                </div>
+                <div className="col-sm-3 text-center">
+                  <Image
+                    width={95}
+                    height={142}
+                    src="/images/ken/self-leadership-and-the-one-minute-manager-revised-edition-sm.jpg"
+                    alt="Self Leadership book | Ken Blanchard"
+                  />
+                </div>
+                <div className="col-sm-3 text-center">
+                  <Image
+                    width={95}
+                    height={142}
+                    src="/images/ken/whale-done-2-sm.jpg"
+                    alt="Whale Done Book | Ken Blanchard"
+                  />
+                </div>
+                <div className="col-sm-3 text-center">
+                  <Image
+                    width={95}
+                    height={142}
+                    src="/images/ken/ak-leading-at-a-higher-level-book.jpg"
+                    alt="Self leadership and organizational management at a higher level | Ken Blanchard"
+                  />
+                </div>
+                <div className="col-sm-3 text-center">
+                  <Image
+                    width={95}
+                    height={142}
+                    src="/images/ken/One-Minute-Manager-Builds-High-Performing-Teams-sm.jpg"
+                    alt="One Minute Manager training book | Ken Blanchard"
+                  />
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-sm-8 col-sm-offset-2 text-center visit">
+                  Besøk{' '}
+                  <a
+                    href="https://www.kenblanchardbooks.com/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    KenBlanchardBooks.com
+                  </a>
+                  <br />
+                  for en full oversikt over Kens bøker.
+                  <div className="margin-20">
+                    <a
+                      href="https://www.kenblanchardbooks.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-primary btn-lg"
+                    >
+                      Besøk siden
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="clearfix"></div>
     </Layout>
   );
 };
