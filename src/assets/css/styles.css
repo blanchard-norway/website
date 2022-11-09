@@ -4571,3 +4571,9 @@ section#aus-team-leaders .aus-photo:hover .content-rollover {
     margin-left: 9% !important;
   }
 }
+
+.book-box .container div.col-sm-3.text-center img {
+  border: 1px solid #000;
+  max-width: 95px;
+  max-height: 133px;
+}

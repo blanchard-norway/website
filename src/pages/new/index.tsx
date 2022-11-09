@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Image from 'next/image';
+import Link from 'next/link';
 import { createRef } from 'react';
 import Slider from 'react-slick';
 import { Layout } from '../../components/layout';
@@ -446,9 +447,11 @@ const Home: NextPage = () => {
               forfatter, foredragsholder og forretningskonsulent, beundret for
               sin banebrytende forskning og tanker om lederskap.
             </p>
-            <a href="about-team-ken.html" className="btn btn-primary btn-lg">
-              Møt Ken
-            </a>
+            <Link href="about-team-ken">
+              <a className="btn btn-primary btn-lg">
+                Møt Ken
+              </a>
+            </Link>
           </div>
         </div>
       </section>
