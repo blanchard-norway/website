@@ -1,5 +1,7 @@
 import { NextPage } from 'next';
+import getConfig from 'next/config';
 import Image from 'next/image';
+import Link from 'next/link';
 import { createRef } from 'react';
 import { Layout } from '../../components/layout';
 
@@ -10,6 +12,9 @@ const AboutUs: NextPage = () => {
     trust.current?.classList.toggle('animated');
     trust.current?.classList.toggle('slideInLeft');
   };
+
+  const { publicRuntimeConfig } = getConfig();
+  const { basePath } = publicRuntimeConfig;
 
   return (
     <Layout>
@@ -130,11 +135,11 @@ const AboutUs: NextPage = () => {
                 </li>
               </ul>
               <div className="text-left">
-                <a href="how.html">
+                <Link href={`${basePath}/how`}>
                   <div className="btn btn-primary btn-lg">
                     Arbeid sammen med oss
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

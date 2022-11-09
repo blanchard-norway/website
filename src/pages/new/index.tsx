@@ -1,4 +1,5 @@
 import type { NextPage } from 'next';
+import getConfig from 'next/config';
 import Image from 'next/image';
 import Link from 'next/link';
 import { createRef } from 'react';
@@ -9,6 +10,9 @@ const Home: NextPage = () => {
   const trained = createRef<HTMLDivElement>();
   const chart = createRef<HTMLDivElement>();
   const medal = createRef<HTMLDivElement>();
+
+  const { publicRuntimeConfig } = getConfig();
+  const { basePath } = publicRuntimeConfig;
 
   const greatEnd = () => {
     trained.current?.classList.toggle('animated');
@@ -55,9 +59,9 @@ const Home: NextPage = () => {
             <span className="green-bg"> TRENT OPP</span>
           </h1>
           <div className="mobile-center">
-            <a href="products.html" className="btn btn-primary btn-lg">
-              Se hvordan vi gjør det
-            </a>
+            <Link href={`${basePath}/products`}>
+              <a className="btn btn-primary btn-lg">Se hvordan vi gjør det</a>
+            </Link>
           </div>
         </div>
       </div>
@@ -103,7 +107,7 @@ const Home: NextPage = () => {
                       for å øke produktiviteten hos medarbeiderne i
                       virksomheten.
                     </p>
-                    <a href="product-sl.html">LÆR MER</a>
+                    <Link href={`${basePath}/products/sl`}>LÆR MER</Link>
                   </div>
                 </div>
               </div>
@@ -127,7 +131,7 @@ const Home: NextPage = () => {
                       ved å gi dem de lederferdighetene som trengs for å bli en
                       effektiv leder.
                     </p>
-                    <a href="product-managers.html">LÆR MER</a>
+                    <Link href={`${basePath}/products/managers`}>LÆR MER</Link>
                   </div>
                 </div>
               </div>
@@ -150,7 +154,9 @@ const Home: NextPage = () => {
                       Bemyndiggjør alle medarbeidere til å bli selvledere som
                       tar ansvar og eierskap for å oppnå sine mål.
                     </p>
-                    <a href="product-self-leadership.html">LÆR MER</a>
+                    <Link href={`${basePath}/products/self-leadership`}>
+                      LÆR MER
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -159,9 +165,9 @@ const Home: NextPage = () => {
 
           <div className="row green home">
             <div className="col-sm-4 col-sm-offset-4 text-center">
-              <a href="products.html" className="btn btn-primary btn-lg">
-                Se alle programmene
-              </a>
+              <Link href={`${basePath}/products`}>
+                <a className="btn btn-primary btn-lg">Se alle programmene</a>
+              </Link>
             </div>
           </div>
         </div>
@@ -277,9 +283,9 @@ const Home: NextPage = () => {
               </div>
               <div className="row get-started">
                 <div className="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4 col-lg-5 col-lg-offset-2">
-                  <a href="get-started.html" className="btn btn-primary btn-lg">
-                    Kom i gang
-                  </a>
+                  <Link href={`${basePath}/get-started`}>
+                    <a className="btn btn-primary btn-lg">Kom i gang</a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -425,9 +431,9 @@ const Home: NextPage = () => {
         </div>
         <div className="row center-block">
           <div className="col-md-2 col-md-offset-5">
-            <a href="how.html" className="btn btn-primary btn-lg center-block">
-              Lær mer
-            </a>
+            <Link href={`${basePath}/how`}>
+              <a className="btn btn-primary btn-lg center-block">Lær mer</a>
+            </Link>
           </div>
         </div>
       </section>
@@ -448,9 +454,7 @@ const Home: NextPage = () => {
               sin banebrytende forskning og tanker om lederskap.
             </p>
             <Link href="about-team-ken">
-              <a className="btn btn-primary btn-lg">
-                Møt Ken
-              </a>
+              <a className="btn btn-primary btn-lg">Møt Ken</a>
             </Link>
           </div>
         </div>
@@ -562,12 +566,11 @@ const Home: NextPage = () => {
           </div>
           <div className="row">
             <div className="col-sm-12 col-sm-6 col-sm-offset-3 col-md-3 col-md-offset-8">
-              <a
-                href="events-workshops.html"
-                className="btn btn-primary btn-lg center-block"
-              >
-                Se alle kurs
-              </a>
+              <Link href={`${basePath}/events-workshops`}>
+                <a className="btn btn-primary btn-lg center-block">
+                  Se alle kurs
+                </a>
+              </Link>
             </div>
           </div>
         </div>
