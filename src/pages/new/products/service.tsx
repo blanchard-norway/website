@@ -328,8 +328,13 @@ const ProductService: NextPage = () => {
               <ul>
                 <li>
                   <a href="/upload/2019/Legendarisk_kundeservice.pdf">
-                    <FutureImage width={36} height={24} alt="Download Icon" src="/images/icon-download-bright-green.png" /> Mer om
-                    Legendarisk kundeservice{' '}
+                    <FutureImage
+                      width={36}
+                      height={24}
+                      alt="Download Icon"
+                      src="/images/icon-download-bright-green.png"
+                    />{' '}
+                    Mer om Legendarisk kundeservice{' '}
                   </a>
                 </li>
               </ul>
@@ -343,8 +348,11 @@ const ProductService: NextPage = () => {
       <div className="container margin-30">
         <div className="col-xs-12">
           <div className="footnotes">
-            <div className="footnote">*2011 Customer Experience Impact Report, Oracle<br />
-              **White House Office of Consumer Affairs</div>
+            <div className="footnote">
+              *2011 Customer Experience Impact Report, Oracle
+              <br />
+              **White House Office of Consumer Affairs
+            </div>
           </div>
         </div>
       </div>

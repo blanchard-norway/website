@@ -1,8 +1,13 @@
 import { NextPage } from 'next';
+import getConfig from 'next/config';
 import Image from 'next/future/image';
+import Link from 'next/link';
 import { Layout } from '../../components/layout';
 
 const AboutTeamKen: NextPage = () => {
+  const { publicRuntimeConfig } = getConfig();
+  const { basePath } = publicRuntimeConfig;
+
   return (
     <Layout>
       <div className="container-fluid header product" id="team-ken">
@@ -18,7 +23,7 @@ const AboutTeamKen: NextPage = () => {
           <div className="row">
             <div className="col-xs-12 breadcrumbs">
               <a href="/">HJEM</a> <span className="divider">{'//'}</span>
-              <a href="about-us.html">OM OSS</a>
+              <Link href={`${basePath}/about-us`}>OM OSS</Link>
               <span className="divider">{'//'}</span>MØT KEN BLANCHARD
             </div>
           </div>

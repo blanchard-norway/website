@@ -330,7 +330,7 @@ const ProductsPage: NextPage = () => {
                     hvordan de går utover grunnleggende ledelse, for å være
                     effektiv til å coache deres ansatte, fremme samarbeid, øke
                     tillit og hjelpe dem å prestere på sitt beste.
-                    <a href="product-coaching.html">LES MER</a>
+                    <Link href={`${basePath}/products/coaching`}>LES MER</Link>
                   </div>
                 </div>
                 <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 box">

@@ -116,9 +116,7 @@ const LeadingVirtually: NextPage = () => {
             <div className="row">
               <div className="col-sm-4 col-sm-offset-4 text-center">
                 <Link href={`${basePath}/get-started`}>
-                  <a className="btn btn-primary btn-lg">
-                    Kom i gang
-                  </a>
+                  <a className="btn btn-primary btn-lg">Kom i gang</a>
                 </Link>
               </div>
             </div>

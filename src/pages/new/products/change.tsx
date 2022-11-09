@@ -37,8 +37,9 @@ const ProductChange: NextPage = () => {
           <div className="container">
             <div className="row">
               <div className="col-xs-12 breadcrumbs">
-                <a href="/">Hjem</a> <span className="divider">{'//'}</span>
-                <a href="products.html">produkt og tjenester</a>
+                <Link href={basePath}>Hjem</Link>{' '}
+                <span className="divider">{'//'}</span>
+                <Link href={`${basePath}/products`}>produkt og tjenester</Link>
                 <span className="divider">{'//'}</span>ENDRINGSLEDELSE
               </div>
             </div>

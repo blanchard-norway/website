@@ -45,8 +45,11 @@ const TeamLeadership: NextPage = () => {
           <div className="container">
             <div className="row">
               <div className="col-xs-12 breadcrumbs">
-                <a href="/">HJEM</a> <span className="divider">{'//'}</span>
-                <a href="products.html">produkter og tjenester</a>
+                <Link href={basePath}>HJEM</Link>{' '}
+                <span className="divider">{'//'}</span>
+                <Link href={`${basePath}/products`}>
+                  produkter og tjenester
+                </Link>
                 <span className="divider">{'//'}</span>TEAMLEDELSE
               </div>
             </div>

@@ -86,7 +86,7 @@ export const Navbar: React.FC = () => {
           <div id="navbar" className="navbar-collapse collapse">
             <ul className="nav navbar-nav">
               <li className="hidden-lg">
-                <a href="index.html">Hjem</a>
+                <Link href={basePath}>Hjem</Link>
               </li>
               <li className="dropdown">
                 <Link href={`${basePath}/products`}>
