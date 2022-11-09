@@ -4566,6 +4566,10 @@ section#aus-team-leaders .aus-photo:hover .content-rollover {
   text-transform: uppercase;
 }
 
+.row li {
+  list-style-type: none;
+}
+
 @media (max-width: 1024px) and (min-width: 768px) {
   .col-sm-offset-1-and-half {
     margin-left: 9% !important;
