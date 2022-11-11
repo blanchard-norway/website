@@ -1,5 +1,6 @@
 import { NextPage } from 'next';
 import Image from 'next/image';
+import Link from 'next/link';
 import { createRef } from 'react';
 import { Layout } from '../components/layout';
 
@@ -29,7 +30,7 @@ const Resources: NextPage = () => {
           <div className="container">
             <div className="row">
               <div className="col-xs-12 breadcrumbs">
-                <a href="/">HJEM</a>
+                <Link href="/">HJEM</Link>
                 <span className="divider">{'//'}</span>RESSURSER
               </div>
             </div>

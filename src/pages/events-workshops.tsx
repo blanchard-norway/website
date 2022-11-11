@@ -1,5 +1,6 @@
 import { NextPage } from 'next';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Layout } from '../components/layout';
 
 const EventsWorkshops: NextPage = () => {
@@ -9,7 +10,7 @@ const EventsWorkshops: NextPage = () => {
         <div className="container">
           <div className="row" style={{ paddingBottom: 10 }}>
             <div className="col-xs-12 breadcrumbs">
-              <a href="/">HJEM</a>
+              <Link href="/">HJEM</Link>
               <span className="divider">{'//'}</span>KURS
             </div>
           </div>

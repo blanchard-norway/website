@@ -22,7 +22,7 @@ const AboutTeamKen: NextPage = () => {
         <div className="container">
           <div className="row">
             <div className="col-xs-12 breadcrumbs">
-              <a href="/">HJEM</a> <span className="divider">{'//'}</span>
+              <Link href="/">HJEM</Link> <span className="divider">{'//'}</span>
               <Link href={`${basePath}/about-us`}>OM OSS</Link>
               <span className="divider">{'//'}</span>MØT KEN BLANCHARD
             </div>

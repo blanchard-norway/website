@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Layout } from '../../components/layout';
 
 export const PrivacyPolicyLayout: React.FC<React.PropsWithChildren> = ({ children }) => {
@@ -10,7 +11,7 @@ export const PrivacyPolicyLayout: React.FC<React.PropsWithChildren> = ({ childre
         <div className="container">
           <div className="row">
             <div className="col-xs-12 breadcrumbs">
-              <a href="/">Hjem</a> <span className="divider">{'//'}</span>
+              <Link href="/">Hjem</Link> <span className="divider">{'//'}</span>
               <span className="CMSBreadCrumbsCurrentItem">
                 Personværnserklæring
               </span>

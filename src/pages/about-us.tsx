@@ -38,7 +38,7 @@ const AboutUs: NextPage = () => {
           <div className="container">
             <div className="row">
               <div className="col-xs-12 breadcrumbs">
-                <a href="/">HJEM</a>
+                <Link href="/">HJEM</Link>
                 <span className="divider">{'//'}</span>OM OSS
               </div>
             </div>

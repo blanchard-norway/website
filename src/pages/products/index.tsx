@@ -60,7 +60,7 @@ const ProductsPage: NextPage = () => {
           <div className="container">
             <div className="row">
               <div className="col-xs-12 breadcrumbs">
-                <a href="/">HJEM</a> <span className="divider">{'//'}</span>
+                <Link href="/">HJEM</Link> <span className="divider">{'//'}</span>
                 produkter og tjenester
               </div>
               <div className="row">
