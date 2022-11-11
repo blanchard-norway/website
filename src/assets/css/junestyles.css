@@ -112,7 +112,7 @@ section.bluebg.contact {
 /*get started*/
 #get-started {
   min-height: 391px;
-  background: url(../img/get-started/gs-get-started-leadership-development-management-training-contact-form.jpg)
+  background: url(/img/get-started/gs-get-started-leadership-development-management-training-contact-form.jpg)
     no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -595,7 +595,7 @@ section.empower.delivered .icon {
 
 #team-ken {
   min-height: 391px;
-  background: url(../img/about-us-team-ken/ak-ken-blanchard-executive-leadership-bg.jpg)
+  background: url(/img/about-us-team-ken/ak-ken-blanchard-executive-leadership-bg.jpg)
     no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -644,7 +644,7 @@ section.empower.delivered .icon {
 }
 
 section.videos {
-  background: url(../img/about-us-team-ken/videos-bg.jpg) no-repeat center
+  background: url(/img/about-us-team-ken/videos-bg.jpg) no-repeat center
     center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -673,7 +673,7 @@ section.videos {
 }
 
 section.videos .video-1 {
-  background: url(../img/about-us-team-ken/ak-ken-blanchard-executive-leadership-video.jpg)
+  background: url(/img/about-us-team-ken/ak-ken-blanchard-executive-leadership-video.jpg)
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -683,7 +683,7 @@ section.videos .video-1 {
 }
 
 section.videos .video-2 {
-  background: url(../img/about-us-team-ken/ak-ken-blanchard-tedx-video.jpg)
+  background: url(/img/about-us-team-ken/ak-ken-blanchard-tedx-video.jpg)
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -693,7 +693,7 @@ section.videos .video-2 {
 }
 
 section.videos .video-3 {
-  background: url(../img/about-us-team-ken/ak-ken-blanchard-leadership-viewpoint-video.jpg)
+  background: url(/img/about-us-team-ken/ak-ken-blanchard-leadership-viewpoint-video.jpg)
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -703,7 +703,7 @@ section.videos .video-3 {
 }
 
 .ken-expertise {
-  background: url(../img/about-us-team-ken/ak-ken-blanchard-areas-of-expertise.jpg)
+  background: url(/img/about-us-team-ken/ak-ken-blanchard-areas-of-expertise.jpg)
     no-repeat right center;
   background-size: 50% auto;
   /*-webkit-background-size: cover;
@@ -726,7 +726,7 @@ ul.expertise {
 }
 
 .book-box {
-  background: url(../img/about-us-team-ken/books-line.png) no-repeat center top;
+  background: url(/img/about-us-team-ken/books-line.png) no-repeat center top;
   margin: 60px 0 100px;
 }
 

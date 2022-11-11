@@ -487,7 +487,7 @@ ul#tool-bar li a:hover {
 
 .header#product-trust {
   min-height: 391px;
-  background: url('../img/header-products-building.jpg') no-repeat center center;
+  background: url('/img/header-products-building.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -498,7 +498,7 @@ ul#tool-bar li a:hover {
 
 #products-building-trust-background.header {
   min-height: 391px;
-  background: url('../img/header-products-building.jpg') no-repeat center center;
+  background: url('/img/header-products-building.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -509,7 +509,7 @@ ul#tool-bar li a:hover {
 
 #product-coaching.header {
   min-height: 391px;
-  background: url('../img/header-products-coaching.jpg') no-repeat center center;
+  background: url('/img/header-products-coaching.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -520,7 +520,7 @@ ul#tool-bar li a:hover {
 
 #product-leading-virtualy.header {
   min-height: 391px;
-  background: url('../img/header-products-leading-virtualy.jpg') no-repeat
+  background: url('/img/header-products-leading-virtualy.jpg') no-repeat
     center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -532,7 +532,7 @@ ul#tool-bar li a:hover {
 
 #product-managers.header {
   min-height: 391px;
-  background: url('../img/header-products-manager.jpg') no-repeat center center;
+  background: url('/img/header-products-manager.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -543,7 +543,7 @@ ul#tool-bar li a:hover {
 
 #product-sl.header {
   min-height: 391px;
-  background: url('../img/sl2-sl2-training.jpg') no-repeat center center;
+  background: url('/img/sl2-sl2-training.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -554,7 +554,7 @@ ul#tool-bar li a:hover {
 
 .header#product-change {
   min-height: 391px;
-  background: url('../img/pc-organization-development-and-change.jpg') no-repeat
+  background: url('/img/pc-organization-development-and-change.jpg') no-repeat
     center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -566,7 +566,7 @@ ul#tool-bar li a:hover {
 
 .header#product-motivation {
   min-height: 391px;
-  background: url('../img/om-motivating-employees-in-workplace.jpg') no-repeat
+  background: url('/img/om-motivating-employees-in-workplace.jpg') no-repeat
     center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -586,7 +586,7 @@ ul#tool-bar li a:hover {
 
 .header#selfleadership {
   min-height: 391px;
-  background: url('../img/sl-self-leadership-development.jpg') no-repeat center
+  background: url('/img/sl-self-leadership-development.jpg') no-repeat center
     center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -598,7 +598,7 @@ ul#tool-bar li a:hover {
 
 .header#product-service {
   min-height: 391px;
-  background: url('../img/ls-legendary-service-customer-service-training-programs.jpg')
+  background: url('/img/ls-legendary-service-customer-service-training-programs.jpg')
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -610,7 +610,7 @@ ul#tool-bar li a:hover {
 
 .header#product-online {
   min-height: 391px;
-  background: url('../img/products-online/ol-online-leadership-training-hero-bg.jpg')
+  background: url('/img/products-online/ol-online-leadership-training-hero-bg.jpg')
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -622,7 +622,7 @@ ul#tool-bar li a:hover {
 
 .header#product-teamleadership {
   min-height: 391px;
-  background: url('../img/st-team-leadership-training.jpg') no-repeat center
+  background: url('/img/st-team-leadership-training.jpg') no-repeat center
     center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -634,7 +634,7 @@ ul#tool-bar li a:hover {
 
 .header#products {
   min-height: 391px;
-  background: url('../img/products-home/p-leadership-development-training-hero.jpg')
+  background: url('/img/products-home/p-leadership-development-training-hero.jpg')
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -646,7 +646,7 @@ ul#tool-bar li a:hover {
 
 .header#how-home {
   min-height: 391px;
-  background: url('../img/how-we-work/hw-training-needs-assessment-hero.jpg')
+  background: url('/img/how-we-work/hw-training-needs-assessment-hero.jpg')
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -658,7 +658,7 @@ ul#tool-bar li a:hover {
 
 .header#events {
   min-height: 391px;
-  /* background: url('../img/events-home/events-home-header.jpg') no-repeat center center; */
+  /* background: url('/img/events-home/events-home-header.jpg') no-repeat center center; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -669,7 +669,7 @@ ul#tool-bar li a:hover {
 
 .header#resources {
   min-height: 391px;
-  background: url('../img/resources/rs-leadership-resource-center-hero-bg.jpg')
+  background: url('/img/resources/rs-leadership-resource-center-hero-bg.jpg')
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1028,7 +1028,7 @@ section.managers {
 
 section.managers .left {
   min-height: 675px;
-  background: url('../img/global-mini/global-mini-home-great-managers-left.jpg')
+  background: url('/img/global-mini/global-mini-home-great-managers-left.jpg')
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1038,7 +1038,7 @@ section.managers .left {
 section.managers .right {
   padding-top: 65px;
   min-height: 675px;
-  background: url('../img/global-mini/global-mini-home-great-managers-right.jpg')
+  background: url('/img/global-mini/global-mini-home-great-managers-right.jpg')
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1070,7 +1070,7 @@ section.managers p {
   margin-bottom: -15px;
 }
 .bottom-line-box {
-  background: url('../img/bottom-line-bg.png') no-repeat;
+  background: url('/img/bottom-line-bg.png') no-repeat;
   margin: 0 0 48px 30px;
   width: 543px;
   height: 103px;
@@ -1149,7 +1149,7 @@ section.founder {
 
 section.founder .left {
   min-height: 459px;
-  background: url('../img/ken-photo.jpg') no-repeat center center;
+  background: url('/img/ken-photo.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1157,7 +1157,7 @@ section.founder .left {
 }
 section.founder .right {
   min-height: 459px;
-  background: url('../img/founder-right.jpg') no-repeat center center;
+  background: url('/img/founder-right.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1208,7 +1208,7 @@ section.founder .right p {
 /*products trust sections*/
 
 section.lackoftrust .container-fluid {
-  background: url('../img/products-building-trust-background.jpg') no-repeat
+  background: url('/img/products-building-trust-background.jpg') no-repeat
     center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1219,7 +1219,7 @@ section.lackoftrust .container-fluid {
   text-align: center;
 }
 section.lackoftrust.legendary .container-fluid {
-  background: url('../img/products-online/ol-why-leadership-training-programs-online-bg.jpg')
+  background: url('/img/products-online/ol-why-leadership-training-programs-online-bg.jpg')
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1230,7 +1230,7 @@ section.lackoftrust.legendary .container-fluid {
   text-align: center;
 }
 section.lackoftrust.teamleadership .container-fluid {
-  background: url('../img/products-teamleadership-section1-bg.jpg') no-repeat
+  background: url('/img/products-teamleadership-section1-bg.jpg') no-repeat
     center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1241,7 +1241,7 @@ section.lackoftrust.teamleadership .container-fluid {
   text-align: center;
 }
 section.bossvcoach .container-fluid {
-  background: url('../img/products-coaching-boss-bg.jpg') no-repeat center
+  background: url('/img/products-coaching-boss-bg.jpg') no-repeat center
     center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1253,7 +1253,7 @@ section.bossvcoach .container-fluid {
 }
 
 section.bossvcoach.selfleadership .container-fluid {
-  /* background: url('../img/products-selfleadership-section1-bg.jpg') -repeat center center; */
+  /* background: url('/img/products-selfleadership-section1-bg.jpg') -repeat center center; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1264,7 +1264,7 @@ section.bossvcoach.selfleadership .container-fluid {
 }
 
 section.bossvcoach.first-time-managers .container-fluid {
-  background: url('../img/products-managers-background.jpg') no-repeat center
+  background: url('/img/products-managers-background.jpg') no-repeat center
     center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1276,7 +1276,7 @@ section.bossvcoach.first-time-managers .container-fluid {
 }
 
 section.bossvcoach.products .container-fluid {
-  background: url('../img/products-home/products-home-section-1-bg.jpg')
+  background: url('/img/products-home/products-home-section-1-bg.jpg')
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1288,7 +1288,7 @@ section.bossvcoach.products .container-fluid {
 }
 
 section.change .container-fluid {
-  background: url('../img/products-change-howto-bg.jpg') no-repeat center center;
+  background: url('/img/products-change-howto-bg.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1299,7 +1299,7 @@ section.change .container-fluid {
 }
 
 section.change.optimal-motivation .container-fluid {
-  background: url('../img/products-optimal-motivation-section1-bg.jpg')
+  background: url('/img/products-optimal-motivation-section1-bg.jpg')
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1310,7 +1310,7 @@ section.change.optimal-motivation .container-fluid {
   text-align: center;
 }
 section.sl .container-fluid {
-  background: url('../img/products-sl2-experience-bg.jpg') no-repeat center
+  background: url('/img/products-sl2-experience-bg.jpg') no-repeat center
     center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1322,7 +1322,7 @@ section.sl .container-fluid {
 }
 
 section.events-home .container-fluid {
-  /* background: url('../img/events-home/atd-background.jpg') no-repeat center center; */
+  /* background: url('/img/events-home/atd-background.jpg') no-repeat center center; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1447,7 +1447,7 @@ section.events-webinars {
   margin-top: 30px;
 }
 section.trainingfortrainers {
-  /* background: url('../img/events-home/training-for-trainers-bg.jpg') no-repeat center center; */
+  /* background: url('/img/events-home/training-for-trainers-bg.jpg') no-repeat center center; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1614,7 +1614,7 @@ ul.white-box li:last-child {
 .bluesl .left {
   padding-top: 65px;
   min-height: 675px;
-  background: url('../img/products-sl-photo.jpg') no-repeat center center;
+  background: url('/img/products-sl-photo.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1624,7 +1624,7 @@ ul.white-box li:last-child {
 .bluesl .left.online {
   padding: 0 !important;
   min-height: 446px;
-  background: url('../img/products-online/ol-manager-training-courses-bg.jpg')
+  background: url('/img/products-online/ol-manager-training-courses-bg.jpg')
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1648,11 +1648,11 @@ ul.white-box li:last-child {
 }
 
 .course.manager {
-  background: url('../img/products-online/ol-manager-training-course-bg.png')
+  background: url('/img/products-online/ol-manager-training-course-bg.png')
     no-repeat center top;
 }
 .course.individual {
-  background: url('../img/products-online/ol-online-leadership-training-course-bg.png')
+  background: url('/img/products-online/ol-online-leadership-training-course-bg.png')
     no-repeat center top;
 }
 
@@ -1940,7 +1940,7 @@ section.empower p.eightyfivepercent {
 
 section.sl2experience {
   padding: 50px 0 75px;
-  background: url('../img/products-sl2-experience-bg.jpg') no-repeat center
+  background: url('/img/products-sl2-experience-bg.jpg') no-repeat center
     center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1990,7 +1990,7 @@ input[type='checkbox'] {
   margin-top: 6px;
 }
 .trustissue {
-  /* background: url('../img/products-man-woman-background.jpg') no-repeat center center; */
+  /* background: url('/img/products-man-woman-background.jpg') no-repeat center center; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2002,7 +2002,7 @@ input[type='checkbox'] {
 }
 
 .trustissue.service {
-  /* background: url('../img/ls-customer-care-skills-quiz.png') no-repeat center center; */
+  /* background: url('/img/ls-customer-care-skills-quiz.png') no-repeat center center; */
   padding: 50px 40px 55px 30px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -2013,7 +2013,7 @@ input[type='checkbox'] {
   margin: 50px 0;
 }
 .trustissue.online {
-  background: url('../img/products-online/ol-online-leadership-training-benefits-bg.png')
+  background: url('/img/products-online/ol-online-leadership-training-benefits-bg.png')
     no-repeat center center;
   padding: 50px 40px 55px 30px;
   -webkit-background-size: cover;
@@ -2025,7 +2025,7 @@ input[type='checkbox'] {
   margin: 0;
 }
 .managersvideo {
-  /* background: url('../img/products-managers-video-background.png') no-repeat center center; */
+  /* background: url('/img/products-managers-video-background.png') no-repeat center center; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2042,7 +2042,7 @@ input[type='checkbox'] {
 }
 
 .optimalvideo {
-  /* background: url('../img/om-motivating employees-video.png') no-repeat center center; */
+  /* background: url('/img/om-motivating employees-video.png') no-repeat center center; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2059,7 +2059,7 @@ input[type='checkbox'] {
 }*/
 
 .slvideo {
-  /* background: url('../img/sl2-sl2-training-overview-video.jpg') no-repeat center center; */
+  /* background: url('/img/sl2-sl2-training-overview-video.jpg') no-repeat center center; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2072,7 +2072,7 @@ input[type='checkbox'] {
 }
 
 .coachingskills {
-  /* background: url('../img/products-coaching-skills-bg.jpg') no-repeat center center; */
+  /* background: url('/img/products-coaching-skills-bg.jpg') no-repeat center center; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2202,7 +2202,7 @@ section.empower .right ul li a {
 }
 
 .results-clients {
-  background: url('../img/products-results-background.jpg') no-repeat center
+  background: url('/img/products-results-background.jpg') no-repeat center
     center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -2225,7 +2225,7 @@ section.empower .right ul li a {
 }
 
 .results-coaching-services {
-  /* background: url('../img/products-coaching_services/cs-corporate-coaching-client-results-bg.jpg') no-repeat center center; */
+  /* background: url('/img/products-coaching_services/cs-corporate-coaching-client-results-bg.jpg') no-repeat center center; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2515,14 +2515,14 @@ select:not([multiple]) {
 }
 
 .events .row.workshop {
-  background: url('../img/events-flag-workshop.png') no-repeat top right;
+  background: url('/img/events-flag-workshop.png') no-repeat top right;
 }
 
 .events .row.trainers {
-  background: url('../img/events-flag-trainers.png') no-repeat top right;
+  background: url('/img/events-flag-trainers.png') no-repeat top right;
 }
 .events .row.webinar {
-  /* background: url('../img/events-flag-webinar.jpg') no-repeat top right; */
+  /* background: url('/img/events-flag-webinar.jpg') no-repeat top right; */
 }
 
 .entries .row {
@@ -2727,7 +2727,7 @@ section.bluebg.nopadding .row:first-child {
 }
 
 section.bluebg.nopadding .left {
-  /* background: url('../img/events-t4t/top-left.jpg') no-repeat center center; */
+  /* background: url('/img/events-t4t/top-left.jpg') no-repeat center center; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2738,7 +2738,7 @@ section.bluebg.nopadding .left {
 }
 
 section.bluebg.nopadding.workshop-detail .left {
-  /* background: url('../img/events-workshop-details/top-left.jpg') no-repeat center center; */
+  /* background: url('/img/events-workshop-details/top-left.jpg') no-repeat center center; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2757,7 +2757,7 @@ section.bluebg.nopadding.webinars {
 }
 
 section.bluebg.nopadding.webinars .left {
-  /* background: url('../img/events-webinars/top-left.jpg') no-repeat center top; */
+  /* background: url('/img/events-webinars/top-left.jpg') no-repeat center top; */
   -webkit-background-size: 100% 546px;
   -moz-background-size: 100% 546px;
   -o-background-size: 100% 546px;
@@ -3851,7 +3851,7 @@ ul#connect-social li:first-child {
   }
 
   section.partnersleadership {
-    background: url('../img/products-home/p-leadership-training-programs-and-services-bg.jpg')
+    background: url('/img/products-home/p-leadership-training-programs-and-services-bg.jpg')
       no-repeat bottom right;
     background-size: 50% auto;
     padding: 50px 0;
@@ -4434,7 +4434,7 @@ input.mobile-search-field-shown[type='text'] {
 
 #australia-v2 {
   min-height: 390px;
-  background: url(/images/global-partners-norway-v2/norway-header.jpg) no-repeat
+  background: url(/img/global-partners-norway-v2/norway-header.jpg) no-repeat
     center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -4459,7 +4459,7 @@ input.mobile-search-field-shown[type='text'] {
 }
 
 .results-clients-australia {
-  background: url('/images/global-partners-norway-v2/results-bg.jpg') no-repeat
+  background: url('/img/global-partners-norway-v2/results-bg.jpg') no-repeat
     center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;

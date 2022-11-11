@@ -26,7 +26,7 @@ Partners
 ***************************************************/
 #partners {
   min-height: 391px;
-  background: url('../images/partners-img/pa-leadership-training-partners-bg.jpg')
+  background: url('/img/partners-img/pa-leadership-training-partners-bg.jpg')
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -69,7 +69,7 @@ section.partners-section1 .medium-container h5 {
 }
 
 section.partners-section2 {
-  background: url(../images/pa-manager-training-partners-video-bg.jpg) no-repeat
+  background: url(/img/pa-manager-training-partners-video-bg.jpg) no-repeat
     center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -87,7 +87,7 @@ section.partners-section2 h1 {
 }
 
 section.partners-section2 .partnersvideo {
-  background: url(../images/partners-img/pa-manager-training-partners-video-bg2.jpg)
+  background: url(/img/partners-img/pa-manager-training-partners-video-bg2.jpg)
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -110,7 +110,7 @@ section.partners-section3 p {
 }
 
 section.partners-section3.nopadding .left {
-  background: url(../images/commited-to-your-success.jpg) no-repeat center
+  background: url(/img/commited-to-your-success.jpg) no-repeat center
     center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -139,7 +139,7 @@ section.partners-section3.nopadding .right .list-item li:last-child {
 }
 
 section.partners-section4 {
-  background: url(../images/partners-img/pa-manager-training-partnership-testimonials-bg.jpg)
+  background: url(/img/partners-img/pa-manager-training-partnership-testimonials-bg.jpg)
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -173,7 +173,7 @@ Government
 
 #government {
   min-height: 391px;
-  background: url('../images/government-img/gov-government-leadership-training-bg.jpg')
+  background: url('/img/government-img/gov-government-leadership-training-bg.jpg')
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -329,7 +329,7 @@ section.government-section3 p:last-child {
 }
 
 section.government-section4 {
-  background: url(../images/government-img/gov-government-leadership-training-bg2.jpg)
+  background: url(/img/government-img/gov-government-leadership-training-bg2.jpg)
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -353,7 +353,7 @@ About Us
 ***************************************************/
 #about-us {
   min-height: 391px;
-  background: url('../images/about-img/au-leadership-development-company-hero-bg.jpg')
+  background: url('/img/about-img/au-leadership-development-company-hero-bg.jpg')
     no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -379,7 +379,7 @@ section.aboutus-section2 {
 }
 
 section.aboutus-section2.nopadding .left {
-  background: url(../images/about-img/au-proven-results-leadership-training-company.jpg)
+  background: url(/img/about-img/au-proven-results-leadership-training-company.jpg)
     no-repeat top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -419,25 +419,25 @@ section.aboutus-section2.nopadding .right {
 .list-big-icon li.certificate:before {
   width: 56px;
   height: 73px;
-  background-image: url(../images/icon-certificate.png);
+  background-image: url(/img/icon-certificate.png);
 }
 
 .list-big-icon li.chart:before {
   width: 66px;
   height: 63px;
-  background-image: url(../images/icon-chart.png);
+  background-image: url(/img/icon-chart.png);
 }
 
 .list-big-icon li.people:before {
   width: 65px;
   height: 62px;
-  background-image: url(../images/icon-people.png);
+  background-image: url(/img/icon-people.png);
 }
 
 .list-big-icon li.book:before {
   width: 64px;
   height: 41px;
-  background-image: url(../images/icon-book.png);
+  background-image: url(/img/icon-book.png);
 }
 
 section.aboutus-section2.nopadding .right .text-left {
@@ -496,7 +496,7 @@ section.aboutus-section4 {
 }
 
 section.aboutus-section4.nopadding .left {
-  background: url(../images/about-img/au-blanchard-leadership-development-company-history-bg.jpg)
+  background: url(/img/about-img/au-blanchard-leadership-development-company-history-bg.jpg)
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -536,25 +536,25 @@ section.aboutus-section5 .list-big-icon li {
 .list-big-icon li.hand:before {
   width: 63px;
   height: 56px;
-  background-image: url(../images/about-img/icon-hand.png);
+  background-image: url(/img/about-img/icon-hand.png);
 }
 
 .list-big-icon li.target:before {
   width: 67px;
   height: 66px;
-  background-image: url(../images/about-img/icon-target.png);
+  background-image: url(/img/about-img/icon-target.png);
 }
 
 .list-big-icon li.kenship:before {
   width: 68px;
   height: 68px;
-  background-image: url(../images/about-img/icon-kenship.png);
+  background-image: url(/img/about-img/icon-kenship.png);
 }
 
 .list-big-icon li.d4:before {
   width: 80px;
   height: 30px;
-  background-image: url(../images/about-img/icon-d4.png);
+  background-image: url(/img/about-img/icon-d4.png);
   top: 10px;
   left: -5px;
 }
@@ -562,13 +562,13 @@ section.aboutus-section5 .list-big-icon li {
 .list-big-icon li.dialogue:before {
   width: 71px;
   height: 46px;
-  background-image: url(../images/about-img/icon-dialogue.png);
+  background-image: url(/img/about-img/icon-dialogue.png);
 }
 
 .list-big-icon li.ownership:before {
   width: 48px;
   height: 48px;
-  background-image: url(../images/about-img/icon-ownership.png);
+  background-image: url(/img/about-img/icon-ownership.png);
 }
 
 section.aboutus-section6 {
@@ -577,7 +577,7 @@ section.aboutus-section6 {
 }
 
 section.aboutus-section6.nopadding .right {
-  background: url(../images/about-img/au-leadership-development-company-team.jpg)
+  background: url(/img/about-img/au-leadership-development-company-team.jpg)
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -602,7 +602,7 @@ section.aboutus-section6.nopadding .left p {
 section.aboutus-section7 {
   padding: 80px 0 120px;
   text-align: center;
-  background: url(../images/about-img/au-management-training-company-locations-bg.jpg)
+  background: url(/img/about-img/au-management-training-company-locations-bg.jpg)
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -621,7 +621,7 @@ About Us - Our Story
 ***************************************************/
 #our-story {
   min-height: 391px;
-  background: url('../images/about-img/os-ken-blanchard-story-hero-bg.jpg')
+  background: url('/img/about-img/os-ken-blanchard-story-hero-bg.jpg')
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -789,7 +789,7 @@ About News
 
 #about-news.header {
   min-height: 390px;
-  background: url('../images/about-img/an-management-training-company-news-bg.jpg')
+  background: url('/img/about-img/an-management-training-company-news-bg.jpg')
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -805,7 +805,7 @@ section.article-content {
 }
 
 section.article-content.nopadding .left {
-  background: url(../images/about-img/an-leadership-development-training-news-bg.jpg)
+  background: url(/img/about-img/an-leadership-development-training-news-bg.jpg)
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -863,7 +863,7 @@ section.article-content .article-box .content a {
 }
 
 section.media-requests {
-  background: url('../images/about-img/an-management-training-media-requests-bg.jpg')
+  background: url('/img/about-img/an-management-training-media-requests-bg.jpg')
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -955,7 +955,7 @@ About Us USD
 
 #about-us-usd {
   min-height: 391px;
-  background: url('../images/about-img/usd-masters-degree-in-leadership-hero-bg.jpg')
+  background: url('/img/about-img/usd-masters-degree-in-leadership-hero-bg.jpg')
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -966,7 +966,7 @@ About Us USD
 }
 
 section.about-us-usd {
-  background: url('../images/about-img/usd-leadership-degree-programs-bg.jpg')
+  background: url('/img/about-img/usd-leadership-degree-programs-bg.jpg')
     no-repeat top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1009,7 +1009,7 @@ section.about-us-usd {
   left: 0;
   width: 33px;
   height: 28px;
-  background-image: url(../images/sl2-sl2-leadership-training-features.png);
+  background-image: url(/img/sl2-sl2-leadership-training-features.png);
 }
 
 .graduate-testimonial {
@@ -1019,7 +1019,7 @@ section.about-us-usd {
   text-align: center;
 }
 
-/* Our Story 
+/* Our Story
 -------------------------------*/
 
 .timeline-for ul {

@@ -36,17 +36,7 @@ const nextConfig = withMDX({
     contactTo: env.CONTACT_TO,
     contactFrom: env.CONTACT_FROM,
     reSecret: env.RECAPTCHA_SECRET,
-  },
-  async rewrites() {
-    return {
-      fallback: [
-        {
-          source: '/',
-          destination: '/index.html',
-        },
-      ],
-    };
-  },
+  }
 });
 
 module.exports = nextConfig;

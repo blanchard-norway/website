@@ -31,7 +31,7 @@ export const Navbar: React.FC = () => {
             <li className="social email">
               <a href="mailto:info@blanchard.no">
                 <img
-                  src="/images/top-nav-icon-email.png"
+                  src="/img/top-nav-icon-email.png"
                   alt="mail icon"
                   width="16"
                   height="12"
@@ -42,7 +42,7 @@ export const Navbar: React.FC = () => {
             <li className="social">
               <a>
                 <img
-                  src="/images/top-nav-icon-phone.png"
+                  src="/img/top-nav-icon-phone.png"
                   alt="phone icon"
                   width="12"
                   height="12"
@@ -73,7 +73,7 @@ export const Navbar: React.FC = () => {
             <Link href={basePath}>
               <a className="navbar-brand">
                 <Image
-                  src="/images/global-mini/global-mini-logo.png"
+                  src="/img/global-mini/global-mini-logo.png"
                   width="330"
                   height="72"
                   alt="Mini Logo"
@@ -183,7 +183,7 @@ export const Navbar: React.FC = () => {
       <div className="container-fluid">
         <div className="mobile-logo center-block">
           <Image
-            src="/images/Blanchard-Norway-Logo-Black.png"
+            src="/img/Blanchard-Norway-Logo-Black.png"
             width="330"
             height="167"
             alt="Secondary logo"
