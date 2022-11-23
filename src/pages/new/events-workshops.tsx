@@ -60,8 +60,7 @@ const EventsWorkshops: NextPage = () => {
             </p>
             <p>&nbsp;Se dato og tidspunkt under påmelding. kr. 16.990,-</p>
             <p>
-              &nbsp;Kampanjepris på fysiske kurs i april og mai, Stavanger,
-              Oslo, Bergen og Kristiansand. kr. 8.495,-
+              &nbsp;
             </p>
           </div>
           <div className="col-lg-1 col-sm-3 text-right">
