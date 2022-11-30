@@ -1,10 +1,10 @@
 {
   "root": true,
   "project": {
-    "name": "Blanchard Norway"
+    "name": "Blanchard Website"
   },
   "api": {
-    "projectId": "w1we57qh",
+    "projectId": "3jo2f6oi",
     "dataset": "production"
   },
   "plugins": [
