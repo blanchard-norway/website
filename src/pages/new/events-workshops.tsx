@@ -1,9 +1,8 @@
-import { NextPage, GetStaticProps } from 'next';
-import Image from 'next/image';
-import imageUrlBuilder from '@sanity/image-url';
 import { PortableText, PortableTextComponents } from '@portabletext/react';
-import { Layout } from '../../components/layout';
+import imageUrlBuilder from '@sanity/image-url';
+import { GetStaticProps, NextPage } from 'next';
 import client from '../../../client';
+import { Layout } from '../../components/layout';
 
 interface ComponentProps {
   events: Array<any>;
@@ -43,8 +42,7 @@ const EventsWorkshops: NextPage<ComponentProps> = ({ events }) => {
           </div>
         </div>
 
-        {events &&
-          events.map((el, idx) => (
+        {events?.map((el, idx) => (
             <div
               key={idx}
               className={`row table upcoming-workshops ${
