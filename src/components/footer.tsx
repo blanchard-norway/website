@@ -15,7 +15,7 @@ export const Footer: React.FC = () => {
             <div className="col-sm-6 footer-logo">
               <div className="hidden-xs">
                 <Image
-                  src="/images/global-mini/global-mini-logo-white.png"
+                  src="/img/global-mini/global-mini-logo-white.png"
                   alt="Logo White"
                   width={330}
                   height={72}
@@ -23,7 +23,7 @@ export const Footer: React.FC = () => {
               </div>
               <div className="visible-xs center-block">
                 <Image
-                  src="/images/Blanchard-Norway-Logo-White.png"
+                  src="/img/Blanchard-Norway-Logo-White.png"
                   alt="Logo"
                   width={300}
                   height={167}
@@ -41,7 +41,7 @@ export const Footer: React.FC = () => {
               <br />
               <p>
                 <Image
-                  src="/images/top-nav-icon-phone.png"
+                  src="/img/top-nav-icon-phone.png"
                   alt="Phone"
                   width={12}
                   height={12}
@@ -50,7 +50,7 @@ export const Footer: React.FC = () => {
               </p>
               <p className="visible-xs">
                 <Image
-                  src="/images/top-nav-icon-email.png"
+                  src="/img/top-nav-icon-email.png"
                   width={16}
                   height={12}
                   alt="Email"
@@ -67,7 +67,7 @@ export const Footer: React.FC = () => {
                     rel="noreferrer"
                   >
                     <Image
-                      src="/images/footer-icon-fb.png"
+                      src="/img/footer-icon-fb.png"
                       width={31}
                       height={29}
                       alt="Facebook"
@@ -81,7 +81,7 @@ export const Footer: React.FC = () => {
                     rel="noreferrer"
                   >
                     <Image
-                      src="/images/footer-icon-twitter.png"
+                      src="/img/footer-icon-twitter.png"
                       width={31}
                       height={29}
                       alt="Twitter"
@@ -95,7 +95,7 @@ export const Footer: React.FC = () => {
                     rel="noreferrer"
                   >
                     <Image
-                      src="/images/footer-icon-linkedin.png"
+                      src="/img/footer-icon-linkedin.png"
                       width={31}
                       height={29}
                       alt="LinkedIn"
@@ -109,7 +109,7 @@ export const Footer: React.FC = () => {
                     rel="noreferrer"
                   >
                     <Image
-                      src="/images/footer-icon-youtube.png"
+                      src="/img/footer-icon-youtube.png"
                       width={31}
                       height={29}
                       alt="YouTube"
@@ -123,7 +123,7 @@ export const Footer: React.FC = () => {
             <div className="col-sm-6 copy"></div>
             <div className="col-sm-3 email hidden-xs">
               <Image
-                src="/images/top-nav-icon-email.png"
+                src="/img/top-nav-icon-email.png"
                 width={16}
                 height={12}
                 alt="Email"

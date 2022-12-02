@@ -10,7 +10,7 @@ ul#tool-bar li.social.email {
 
 .header#global-mini-home {
   min-height: 391px;
-  background: url('../img/global-mini/global-mini-home-hd.jpg') no-repeat center
+  background: url('/img/global-mini/global-mini-home-hd.jpg') no-repeat center
     center;
   -webkit-background-size: cover;
   -moz-background-size: over;
@@ -94,7 +94,7 @@ About Us
 ***************************************************/
 #about-us {
   min-height: 391px;
-  background: url('../img/about-img/au-leadership-development-company-hero-bg.jpg')
+  background: url('/img/about-img/au-leadership-development-company-hero-bg.jpg')
     no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -120,7 +120,7 @@ section.aboutus-section2 {
 }
 
 section.aboutus-section2.nopadding .left {
-  background: url(../img/about-img/au-proven-results-leadership-training-company.jpg)
+  background: url(/img/about-img/au-proven-results-leadership-training-company.jpg)
     no-repeat top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -160,25 +160,25 @@ section.aboutus-section2.nopadding .right {
 .list-big-icon li.certificate:before {
   width: 56px;
   height: 73px;
-  background-image: url(../img/icon-certificate.png);
+  background-image: url(/img/icon-certificate.png);
 }
 
 .list-big-icon li.chart:before {
   width: 66px;
   height: 63px;
-  background-image: url(../img/icon-chart.png);
+  background-image: url(/img/icon-chart.png);
 }
 
 .list-big-icon li.people:before {
   width: 65px;
   height: 62px;
-  background-image: url(../img/icon-people.png);
+  background-image: url(/img/icon-people.png);
 }
 
 .list-big-icon li.book:before {
   width: 64px;
   height: 41px;
-  background-image: url(../img/icon-book.png);
+  background-image: url(/img/icon-book.png);
 }
 
 section.aboutus-section2.nopadding .right .text-left {
@@ -237,7 +237,7 @@ section.aboutus-section4 {
 }
 
 section.aboutus-section4.nopadding .left {
-  background: url(../img/about-img/au-blanchard-leadership-development-company-history-bg.jpg)
+  background: url(/img/about-img/au-blanchard-leadership-development-company-history-bg.jpg)
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -277,25 +277,25 @@ section.aboutus-section5 .list-big-icon li {
 .list-big-icon li.hand:before {
   width: 63px;
   height: 56px;
-  background-image: url(../img/about-img/icon-hand.png);
+  background-image: url(/img/about-img/icon-hand.png);
 }
 
 .list-big-icon li.target:before {
   width: 67px;
   height: 66px;
-  background-image: url(../img/about-img/icon-target.png);
+  background-image: url(/img/about-img/icon-target.png);
 }
 
 .list-big-icon li.kenship:before {
   width: 68px;
   height: 68px;
-  background-image: url(../img/about-img/icon-kenship.png);
+  background-image: url(/img/about-img/icon-kenship.png);
 }
 
 .list-big-icon li.d4:before {
   width: 80px;
   height: 30px;
-  background-image: url(../img/about-img/icon-d4.png);
+  background-image: url(/img/about-img/icon-d4.png);
   top: 10px;
   left: -5px;
 }
@@ -303,13 +303,13 @@ section.aboutus-section5 .list-big-icon li {
 .list-big-icon li.dialogue:before {
   width: 71px;
   height: 46px;
-  background-image: url(../img/about-img/icon-dialogue.png);
+  background-image: url(/img/about-img/icon-dialogue.png);
 }
 
 .list-big-icon li.ownership:before {
   width: 48px;
   height: 48px;
-  /* background-image: url(../img/icon-ownership.png); */
+  /* background-image: url(/img/icon-ownership.png); */
 }
 
 section.aboutus-section6 {
@@ -318,7 +318,7 @@ section.aboutus-section6 {
 }
 
 section.aboutus-section6.nopadding .right {
-  background: url(../img/about-img/au-leadership-development-company-team.jpg)
+  background: url(/img/about-img/au-leadership-development-company-team.jpg)
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -343,7 +343,7 @@ section.aboutus-section6.nopadding .left p {
 section.aboutus-section7 {
   padding: 80px 0 120px;
   text-align: center;
-  background: url(../img/about-img/au-management-training-company-locations-bg.jpg)
+  background: url(/img/about-img/au-management-training-company-locations-bg.jpg)
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -386,7 +386,7 @@ section.bluebg.top-50 {
 /*get started*/
 #get-started {
   min-height: 391px;
-  background: url(../img/get-started/gs-get-started-leadership-development-management-training-contact-form.jpg)
+  background: url(/img/get-started/gs-get-started-leadership-development-management-training-contact-form.jpg)
     no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
