@@ -1,6 +1,7 @@
 import { PortableText, PortableTextComponents } from '@portabletext/react';
 import imageUrlBuilder from '@sanity/image-url';
 import { GetStaticProps, NextPage } from 'next';
+import Link from 'next/link';
 import client from '../../client';
 import { Layout } from '../components/layout';
 
