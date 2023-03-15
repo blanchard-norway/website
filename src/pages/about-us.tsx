@@ -172,16 +172,20 @@ const AboutUs: NextPage = () => {
                     className="img-responsive"
                   />
                   <div className="blue-bg-title text-center arialbold18">
-                    Geir Joa Håland
+                    Bjørn Niklas Sjøstrøm
                     <br />
                     Daglig leder
                   </div>
                 </div>
                 <div className="content-rollover" id="first">
-                  Geir Joa Håland har lang kommersiell erfaring innen kurs og
-                  kompetanse og har hatt flere lederroller i ulike selskaper.
-                  Har flere år på høyskole innen ledelse, HMS og medisin. Har
-                  også mange års erfaring fra Sjøforsvaret og Tollvesenet.
+                  Bjørn Niklas Sjøstrøm er en rutinert styreleder med en rik
+                  bakgrunn fra informasjonsteknologi- og servicebransjen. Dyktig
+                  innen kundeservice, coaching, salg, salgsoperasjoner og
+                  kunderelasjonsstyring (CRM). Profesjonell entreprenør
+                  uteksaminert fra BI Business Skole. Skilled in Customer
+                  Service, Coaching, Sales, Sales Operations, and Customer
+                  Relationship Management (CRM). Strong entrepreneurship
+                  professional graduated from Handelshøyskolen BI.
                 </div>
               </div>
             </div>
@@ -226,7 +230,7 @@ const AboutUs: NextPage = () => {
                   </div>
                 </div>
                 <div className="content-rollover" id="third">
-                  Rune Haugen er frofatter, foredragsholder og prosessveileder.
+                  Rune Haugen er forfatter, foredragsholder og prosessveileder.
                   Medforfatter av boken Helsefremmende Lederskap- slik leder de
                   beste (Gyldendal 2010). 10 år med lederutviklingsprogram, kurs
                   og inspirasjonsforedrag for tusentalls ledere og medarbeidere.{' '}
