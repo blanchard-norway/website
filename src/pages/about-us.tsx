@@ -165,7 +165,7 @@ const AboutUs: NextPage = () => {
               <div className="aus-photo">
                 <div className="content-show">
                   <Image
-                    src="/img/global-partners-norway-v2/geir.jpg"
+                    src="/img/about-img/bn.jpg"
                     width={1383}
                     height={1608}
                     alt="Geir"
